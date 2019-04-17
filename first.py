@@ -2,6 +2,9 @@ from collections import defaultdict
 
 from surprise import Reader, Dataset
 from surprise import KNNWithMeans
+from surprise import accuracy
+from surprise.model_selection import train_test_split
+
 
 # Define the format
 reader = Reader(line_format='user item rating timestamp', sep='\t')
@@ -44,18 +47,20 @@ reader = Reader(line_format='user item rating timestamp', sep='\t')
 # Load the data from the file using the reader format
 data = Dataset.load_from_file('ml-100k/u.data', reader=reader)
 
-trainset = data.build_full_trainset()
+trainset, testset = train_test_split(data, test_size=0.25)
+# trainset = data.build_full_trainset()
 
 sim_options = {'name': 'cosine',
                'user_based': False  # compute  similarities between items
                }
 algo = KNNWithMeans(sim_options=sim_options)
-
 algo.fit(trainset)
 
 # Than predict ratings for all pairs (u, i) that are NOT in the training set.
-testset = trainset.build_anti_testset()
+# testset = trainset.build_anti_testset()
 predictions = algo.test(testset)
+
+# accuracy.rmse(predictions)
 
 top_n = get_top_n(predictions, n=10)
 

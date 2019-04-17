@@ -3,24 +3,24 @@ from scipy.sparse import csr_matrix
 from pandas.api.types import CategoricalDtype
 from surprise import Reader, Dataset
 
-frame = pd.DataFrame()
-frame['person']=['me','you','him','you','him','me']
-frame['thing']=['a','a','b','c','d','d']
-frame['count']=[1,1,1,1,1,1]
+# frame = pd.DataFrame()
+# frame['person']=['me','you','him','you','him','me']
+# frame['thing']=['a','a','b','c','d','d']
+# frame['count']=[1,1,1,1,1,1]
 
-person_c = CategoricalDtype(sorted(frame.person.unique()), ordered=True)
-thing_c = CategoricalDtype(sorted(frame.thing.unique()), ordered=True)
+# person_c = CategoricalDtype(sorted(frame.person.unique()), ordered=True)
+# thing_c = CategoricalDtype(sorted(frame.thing.unique()), ordered=True)
 
-row = frame.person.astype(person_c).cat.codes
-col = frame.thing.astype(thing_c).cat.codes
-sparse_matrix = csr_matrix((frame["count"], (row, col)), shape=(person_c.categories.size, thing_c.categories.size))
+# row = frame.person.astype(person_c).cat.codes
+# col = frame.thing.astype(thing_c).cat.codes
+# sparse_matrix = csr_matrix((frame["count"], (row, col)), shape=(person_c.categories.size, thing_c.categories.size))
 
-dfs = pd.SparseDataFrame(sparse_matrix, \
-                         index=person_c.categories, \
-                         columns=thing_c.categories, \
-                         default_fill_value=0)
+# dfs = pd.SparseDataFrame(sparse_matrix, \
+#                          index=person_c.categories, \
+#                          columns=thing_c.categories, \
+#                          default_fill_value=0)
 
-print(dfs)
+# print(dfs)
 
 metadata = pd.read_csv('ml-latest-small/ratings.csv', low_memory=False)
 
