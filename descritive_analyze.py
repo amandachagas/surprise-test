@@ -58,7 +58,17 @@ print(movies.head())
 print('\n')
 print(ratings.head())
 
-get_movies_ratings(movies.head(),'5_teste')
+get_movies_ratings(movies[0:1000],'01')
+get_movies_ratings(movies[1000:2000],'02')
+get_movies_ratings(movies[2000:3000],'03')
+get_movies_ratings(movies[3000:4000],'04')
+get_movies_ratings(movies[4000:5000],'05')
+get_movies_ratings(movies[5000:6000],'06')
+get_movies_ratings(movies[6000:7000],'07')
+get_movies_ratings(movies[7000:8000],'08')
+get_movies_ratings(movies[8000:9000],'09')
+get_movies_ratings(movies[9000:],'10')
+
 
 
 # mini_movies = movies[0:1000]
