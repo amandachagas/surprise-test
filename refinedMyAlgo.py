@@ -136,7 +136,7 @@ class RefinedMyAlgo():
         self.cosine_sim_movies_genres = cosine_similarity(tfidf_matrix_genres, tfidf_matrix_genres)
         
         
-    def get_similar_movies(self, references, title_weight=0.5):
+    def get_similar_movies(self, references, title_weight=0.8):
         recs = []
         for movie in references:
             # Get the pairwsie similarity scores of all movies with that movie
@@ -147,16 +147,14 @@ class RefinedMyAlgo():
             # Calculate total similarity based on title and genres
             total_sim_score = []
             for i in range(len(sim_scores_title)):
-                # print("sim_score_title= {}\t sim_score_genres= {}".format(sim_scores_title[i][1], sim_scores_genres[i][1]))
+#                 print("sim_score_title= {}\t sim_score_genres= {}".format(sim_scores_title[i][1], sim_scores_genres[i][1]))
                 aux = (sim_scores_title[i][1]*title_weight) + (sim_scores_genres[i][1]*(1-title_weight))
                 total_sim_score.append((i, aux))
-                # print("sim_score_total= {}".format(total_sim_score))
+#                 print("sim_score_total= {}".format(total_sim_score))
                 
             # Sort the movies based on the similarity scores
             total_sim_score = sorted(total_sim_score, key=lambda x: x[1], reverse=True)
             self.total_sim_score = total_sim_score
-            # for i in total_sim_score[0:30]:
-            # 	print("Item scored: {}\n".format(i))
             
             candidates_sim_score = []
             for item in total_sim_score:
@@ -165,7 +163,6 @@ class RefinedMyAlgo():
             
             # Get the scores of the 10 most similar movies
             candidates_sim_score = candidates_sim_score[1:11]
-            print("\nCandidates movie {} sim_score= {}".format(movie, candidates_sim_score))
             
             recs.append(candidates_sim_score)
             
@@ -185,7 +182,7 @@ class RefinedMyAlgo():
                 movie_title = self.movies.loc[movie[0]].values[1]
                 movie_genres = self.movies.loc[movie[0]].values[2]
                 movie_similarity = movie[1]
-                movie_relevance = ((reference['rating']/5.0)+movie_similarity)/2
+                movie_relevance = round(((reference['rating']/5.0)+movie_similarity)/2, 3)
 
                 aux['movie_id'] = movie_id
                 aux['movie_title'] = movie_title
@@ -304,7 +301,8 @@ for index, row in group_filled_mtx.iterrows():
             aux = list(filter(lambda x: x.uid==str(index) and x.iid==str(col), refinedMyAlgo.predictions))
             group_filled_mtx.loc[index,col] = aux[0].est
 
-print(group_filled_mtx.head())
+group_filled_mtx = group_filled_mtx.round(decimals=3)
+# group_filled_mtx.head()
 
 
 
@@ -369,6 +367,8 @@ for item in references:
 
 
 
+
+
 print("\n\n-->  Calculating recs...")
 recs = refinedMyAlgo.get_similar_movies(references)
 
@@ -376,6 +376,25 @@ recs = refinedMyAlgo.get_similar_movies(references)
 
 
 
+
+
+candidates_list = refinedMyAlgo.get_relevance_score(recs=recs, references=references)
+# print(len(candidates_list))
+print("\n\n-->  The top-20 recs are:")
+for item in candidates_list[0:20]:
+    print('relevance: {}, title:{}'.format(item['movie_relevance'], item['movie_title']))
+
+
+
+
+
+
+
+my_candidates = candidates_list.copy()
+final_recs = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
+print("\n\n-->  The top-10 DIVERSIFIED recs are:")
+for item in final_recs:
+    print('relevance: {}, title:{}'.format(item['movie_relevance'], item['movie_title']))
 
 
 
