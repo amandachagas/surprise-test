@@ -5,12 +5,14 @@ from surprise import KNNWithMeans, KNNBasic, SVD
 from surprise import accuracy
 from surprise.model_selection import train_test_split, cross_validate
 
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 import json
+import random
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity, pairwise_distances
+from sklearn.metrics import precision_score
 
 
 
@@ -22,6 +24,7 @@ class RefinedMyAlgo():
 #             self.trainset, self.testset = train_test_split(self.ratings, test_size=0.25)
             self.trainset = self.ratings.build_full_trainset()
             self.sim_options = {'name': 'cosine','user_based': False}
+            self.df_ratings = pd.read_csv(rating_data, low_memory=False, names=['userId', 'movieId', 'rating','timestamp'])
         elif not data_frame.empty:
             reader = Reader(rating_scale=(0, 5))
             self.ratings = Dataset.load_from_df(data_frame[['userId', 'movieId', 'rating']], reader)
@@ -33,6 +36,13 @@ class RefinedMyAlgo():
             self.movies['year'] = self.movies['title'].apply(lambda x: x[-5:-1])
             self.movies['title'] = self.movies['title'].apply(lambda x: x[:-7])
             self.movies['genres'] = self.movies['genres'].apply(lambda x: x.replace('|',', '))
+            
+    
+    def random_group(self, n):
+        self.users_list = list(self.df_ratings['userId'])
+        random_group = random.sample(self.users_list,n)
+        return random_group
+        
 
         
     def set_k(self, k_value=''):
@@ -201,7 +211,7 @@ class RefinedMyAlgo():
         return recs_dict
     
     
-    def calc_distance_item_in_list(self, item, this_list, title_weight=0.5):
+    def calc_distance_item_in_list(self, item, this_list, title_weight=0.8):
 
         idx_i = int(self.movies[self.movies['movieId']==item['movie_id']].index[0])
 
@@ -260,6 +270,92 @@ class RefinedMyAlgo():
     
         return diversified_list
 
+    
+    def calc_dist_i_j(self, idx_i, idx_j, title_weight=0.8):
+        sim_genre = self.cosine_sim_movies_genres[idx_i][idx_j]
+        sim_title = self.cosine_sim_movies_title[idx_i][idx_j]
+        total_sim = (sim_title*title_weight) + (sim_genre*(1-title_weight))
+        dist_score = 1 - total_sim
+
+        return dist_score
+    
+    
+    def get_distance_matrix(self, final_recs, title_weight=0.8):
+        dist_matrix = []
+        for i in final_recs:
+            aux = []
+            movie_idx_i = int(self.movies[self.movies['movieId']==i['movie_id']].index[0])
+            for j in final_recs:
+                movie_idx_j = int(self.movies[self.movies['movieId']==j['movie_id']].index[0])
+                dist_i_j = self.calc_dist_i_j(movie_idx_i, movie_idx_j, title_weight=0.8)
+                aux.append(dist_i_j)
+            dist_matrix.append(aux)
+            
+        return dist_matrix
+    
+    def get_ILD_score(self, final_recs, title_weight=0.8):
+        dist_matrix = self.get_distance_matrix(final_recs, title_weight=0.8)
+        np_dist_mtx = np.array(dist_matrix)
+        upper_right = np.triu_indices(np_dist_mtx.shape[0], k=1)
+
+        ild_score = np.mean(np_dist_mtx[upper_right])
+        
+        return ild_score
+    
+    
+    
+    # # # # # # # # # # PRECISION Module # # # # # # # # # #
+    
+    def get_mean(self, movie):
+        converted_values = []
+        for item in movie['ratings']:
+            for bla in item:
+                aux = float(bla)
+                converted_values.append(aux)
+
+        my_mean = sum(converted_values) / len(converted_values)
+        my_mean = round(my_mean, 3)
+        return my_mean
+    
+    
+    def get_movies_means(self, movies_list, at):
+        my_copy = self.df_ratings.copy()
+
+        df_movies_ratings = my_copy.groupby('movieId')['rating'].apply(list).reset_index(name='ratings')
+
+        movies_means = []
+
+        for item in movies_list[:at]:
+            movie = df_movies_ratings[df_movies_ratings['movieId']==item['movie_id']]
+            movies_means.append(self.get_mean(movie))
+
+        return movies_means
+    
+    
+    def binary_mean(self, movies_mean, cutoff):
+        binary_mean = []
+        returned_movies = []
+        for item in movies_mean:
+            if item >= cutoff:
+                binary_mean.append(1)
+            else:
+                binary_mean.append(0)
+
+            returned_movies.append(1)
+
+        return precision_score(binary_mean, returned_movies)
+    
+    
+    def precision_at_offline(self, movies_list, at):
+    
+        global_mean = self.trainset.global_mean
+        movies_list_mean = self.get_movies_means(movies_list, at)
+
+        print("Global mean: {}, movies_list_mean: {}".format(global_mean, movies_list_mean))
+
+        precision = self.binary_mean(movies_list_mean, global_mean)
+        return precision
+
 
 
 
@@ -272,16 +368,21 @@ refinedMyAlgo.set_k()
 
 
 
-my_users = [77,596,452,243,420]
+# # # FIXED GROUP
+# my_group = [77,596,452,243,420]
 
-refinedMyAlgo.predict_ratings(users=my_users)
+# # # RANDOM GROUP
+my_group = refinedMyAlgo.random_group(5)
+print(my_group)
+
+refinedMyAlgo.predict_ratings(users=my_group)
 print(len(refinedMyAlgo.predictions))
 
 
 
 
 
-refinedMyAlgo.set_perfil_movies(users=my_users)
+refinedMyAlgo.set_perfil_movies(users=my_group)
 refinedMyAlgo.set_candidate_movies()
 
 # print(refinedMyAlgo.perfil_movies)
@@ -308,9 +409,10 @@ group_filled_mtx = group_filled_mtx.round(decimals=3)
 
 
 
+'''
 print("\n\n-->  Implementing least misery STRATEGY...")
 ########################################################################
-# # Implementing least misery ending-up in a dataframe
+# # Implementing LEAST MISERY ending-up in a dataframe
 ########################################################################
 values = []
 labels = []
@@ -328,7 +430,62 @@ agg_group_perf = pd.DataFrame(index=[900], columns=labels)
 for i in range(0,len(list(agg_group_perf))):
     agg_group_perf.iloc[0, i] = values[i]
 
-print(agg_group_perf.head())
+    
+agg_group_perf = agg_group_perf.round(decimals=3)
+agg_group_perf.head()
+
+
+print("\n\n-->  Implementing MOST PLEASURE STRATEGY...")
+########################################################################
+# # Implementing MOST PLEASURE ending-up in a dataframe
+########################################################################
+values = []
+labels = []
+for i in range(0,len(list(group_filled_mtx))):
+    my_col = group_filled_mtx.iloc[ : ,i]
+    label = my_col.name
+    my_col = list(my_col)
+    
+    labels.append(label)
+    values.append( float(max(my_col)) )
+    
+# print('Array values: {}, Array labels: {}'.format(values, labels))
+agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+
+for i in range(0,len(list(agg_group_perf))):
+    agg_group_perf.iloc[0, i] = values[i]
+    
+agg_group_perf = agg_group_perf.round(decimals=3)
+agg_group_perf.head()
+'''
+
+
+print("\n\n-->  Implementing AVERAGE WITHOUT MISERY STRATEGY...")
+########################################################################
+# # Implementing AVERAGE WITHOUT MISERY: treshold=2  ending-up in a dataframe
+########################################################################
+values = []
+labels = []
+for i in range(0,len(list(group_filled_mtx))):
+    my_col = group_filled_mtx.iloc[ : ,i]
+    label = my_col.name
+    my_col = list(my_col)
+    
+    labels.append(label)
+    if float(min(my_col)) <= 2 :
+        values.append( float(min(my_col)) )
+    else:
+        values.append( float( sum(my_col) / len(my_col) ) )
+    
+# print('Array values: {}, Array labels: {}'.format(values, labels))
+agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+
+for i in range(0,len(list(agg_group_perf))):
+    agg_group_perf.iloc[0, i] = values[i]
+
+    
+agg_group_perf = agg_group_perf.round(decimals=3)
+agg_group_perf.head()
 
 
 
@@ -344,7 +501,7 @@ for col in list(agg_group_perf):
     group_pref_dict.append(my_dict)
     
 group_pref_dict = sorted(group_pref_dict, key = lambda i: i['rating'],reverse=True)
-print(group_pref_dict)
+group_pref_dict
 
 
 
@@ -380,7 +537,7 @@ recs = refinedMyAlgo.get_similar_movies(references)
 
 candidates_list = refinedMyAlgo.get_relevance_score(recs=recs, references=references)
 # print(len(candidates_list))
-print("\n\n-->  The top-20 recs are:")
+print("\n\n-->  The top-20 recs are:\n")
 for item in candidates_list[0:20]:
     print('relevance: {}, title:{}'.format(item['movie_relevance'], item['movie_title']))
 
@@ -389,13 +546,32 @@ for item in candidates_list[0:20]:
 
 
 
-
 my_candidates = candidates_list.copy()
 final_recs = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
-print("\n\n-->  The top-10 DIVERSIFIED recs are:")
+print("\n\n-->  The top-10 DIVERSIFIED recs are:\n")
 for item in final_recs:
     print('relevance: {}, title:{}'.format(item['movie_relevance'], item['movie_title']))
 
 
 
+print('\n\n')
+print("########################################################################")
+print("#######################     EVALUATING SYSTEM    #######################")
+print("########################################################################")
+print('\n\n')
 
+
+standard_recs = candidates_list[0:10]
+result_ILD_standard = refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)
+print('Metric: ILD\t\tList: Standard\t\tValue: {}\n'.format(result_ILD_standard))
+
+result_ILD_diversified = refinedMyAlgo.get_ILD_score(final_recs, title_weight=0.8)
+print('Metric: ILD\t\tList: Diversified\t\tValue: {}\n'.format(result_ILD_diversified))
+
+print('Metric: Precision@10\t\tList: Standard')
+result_pat10_standard = refinedMyAlgo.precision_at_offline(standard_recs, 10)
+print(result_pat10_standard)
+
+print('Metric: Precision@10\t\tList: Diversified')
+result_pat10_diversified = refinedMyAlgo.precision_at_offline(final_recs, 10)
+print(result_pat10_diversified)
