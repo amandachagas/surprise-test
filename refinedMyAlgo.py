@@ -109,7 +109,7 @@ class RefinedMyAlgo():
         
         
     def set_perfil_movies(self, users):
-        metadata = pd.read_csv('ml-latest-small/ratings.csv', low_memory=False, names=['userId', 'movieId', 'rating','timestamp'])
+        metadata = pd.read_csv('datasets/ml-latest-small/ratings.csv', low_memory=False, names=['userId', 'movieId', 'rating','timestamp'])
         metadata = metadata.drop(columns="timestamp")
 
         metadata_filtered = metadata[metadata.userId.isin(users)]
@@ -360,7 +360,7 @@ class RefinedMyAlgo():
 
 
 print("\n\n-->  Initializing...")
-refinedMyAlgo = RefinedMyAlgo(rating_data='ml-latest-small/ratings.csv', movie_data='ml-latest-small/movies.csv')
+refinedMyAlgo = RefinedMyAlgo(rating_data='datasets/ml-latest-small/ratings.csv', movie_data='datasets/ml-latest-small/movies.csv')
 refinedMyAlgo.set_k()
 
 
