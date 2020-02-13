@@ -370,9 +370,14 @@ refinedMyAlgo.set_k()
 
 # # # FIXED GROUP
 # my_group = [77,596,452,243,420]
+# my_group = [527, 387, 288, 610, 504]
+# my_group = [177, 263, 477, 274, 68]
+# my_group = [261, 591, 391, 525, 226]
+# my_group = [555, 141, 143, 610, 89]
+my_group = [448, 305, 483, 136, 66]
 
 # # # RANDOM GROUP
-my_group = refinedMyAlgo.random_group(5)
+# my_group = refinedMyAlgo.random_group(5)
 print(my_group)
 
 refinedMyAlgo.predict_ratings(users=my_group)
@@ -539,7 +544,7 @@ candidates_list = refinedMyAlgo.get_relevance_score(recs=recs, references=refere
 # print(len(candidates_list))
 print("\n\n-->  The top-20 recs are:\n")
 for item in candidates_list[0:20]:
-    print('relevance: {}, title:{}'.format(item['movie_relevance'], item['movie_title']))
+    print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
 
 
 
@@ -550,7 +555,7 @@ my_candidates = candidates_list.copy()
 final_recs = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
 print("\n\n-->  The top-10 DIVERSIFIED recs are:\n")
 for item in final_recs:
-    print('relevance: {}, title:{}'.format(item['movie_relevance'], item['movie_title']))
+    print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
 
 
 

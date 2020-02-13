@@ -1,0 +1,346 @@
+---->> GROUP 1 [527, 387, 288, 610, 504]
+
+-> run 01:
+	Metric: ILD		List: Standard		Value: 0.7893530469114842
+
+	Metric: ILD		List: Diversified		Value: 0.9647759255163505
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 4.0, 4.0, 2.5, 3.125, 3.125, 3.9, 2.0, 3.9, 0.5]
+	0.5
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 2.5, 2.0, 3.125, 4.75, 4.5, 2.583, 3.8, 3.513, 3.9]
+	0.6
+
+-> run 02:
+	Metric: ILD		List: Standard		Value: 0.8262277992893404
+
+	Metric: ILD		List: Diversified		Value: 0.9716784184695229
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.167, 3.625, 4.0, 4.0, 2.5, 3.125, 3.125, 3.9, 2.0, 3.9]
+	0.5
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.167, 2.5, 2.0, 3.9, 3.625, 3.513, 4.5, 3.8, 3.0, 2.583]
+	0.5
+
+-> run 03			[105954,94122,2306,179819,172591,5901,26729,187595,98799,27074]
+	Metric: ILD		List: Standard		Value: 0.7757707354485809
+
+	Metric: ILD		List: Diversified		Value: 0.9685793520690503
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 3.125, 3.125, 3.9, 2.0, 3.9, 0.5, 2.583, 0.5, 3.8]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 2.0, 2.583, 3.125, 4.75, 4.5, 3.8, 3.9, 2.5, 1.5]
+	0.5
+
+-> run 04			[105954,96616,94122,55946,179819,2306,26729,5901,135937,187595]
+	Metric: ILD		List: Standard		Value: 0.83595627722388
+
+	Metric: ILD		List: Diversified		Value: 0.9652242824184555
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 4.0, 4.0, 2.5, 3.125, 3.125, 3.9, 4.0, 2.0, 3.9]
+	0.6
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 2.5, 2.0, 4.0, 3.125, 2.583, 3.8, 4.5, 3.0, 3.9]
+	0.5
+
+-> run 05			[105954,94122,2306,179819,5901,26729,631,142961,187595,5447]
+	Metric: ILD		List: Standard		Value: 0.7324408801872774
+
+	Metric: ILD		List: Diversified		Value: 0.9652785784364857
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 3.125, 3.125, 3.9, 3.9, 2.0, 0.5, 0.5, 2.583, 4.5]
+	0.4
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.625, 2.0, 2.583, 3.125, 4.5, 3.8, 3.182, 2.5, 3.9, 3.5]
+	0.4
+
+
+
+
+---->> GROUP 2 [177, 263, 477, 274, 68]
+
+-> run 01			[98124,49130,51927,421,176751,8375,55946,3211,81520,168366]
+	Metric: ILD		List: Standard		Value: 0.8867713232142258
+
+	Metric: ILD		List: Diversified		Value: 0.9625387435728876
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.75, 0.5, 3.667, 2.667, 3.25, 3.5, 4.5, 3.0, 3.5]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.667, 3.25, 3.208, 4.5, 2.5, 4.0, 3.75, 4.0, 3.5]
+	0.6
+
+-> run 02			[98124,51927,168366,176751,49130,8375,8591,3211,55946,81520]
+	Metric: ILD		List: Standard		Value: 0.9212106517344156
+
+	Metric: ILD		List: Diversified		Value: 0.96986618143197
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.75, 0.5, 3.25, 3.5, 3.667, 2.667, 4.5, 3.5, 3.5]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.25, 3.5, 4.5, 3.667, 2.5, 3.5, 3.75, 4.0, 4.0]
+	0.6
+
+-> run 03			[98124,51927,49130,421,176751,8375,4772,55946,31694,81520]
+	Metric: ILD		List: Standard		Value: 0.9032843555872834
+
+	Metric: ILD		List: Diversified		Value: 0.9793669807733579
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.75, 0.5, 3.25, 3.667, 2.667, 3.5, 4.5, 3.5, 3.5]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.25, 3.667, 3.208, 4.5, 2.5, 3.5, 4.0, 3.25, 4.0]
+	0.5
+
+-> run 04			[98124,51927,49130,421,176751,8375,55946,81520,3211,94503]
+	Metric: ILD		List: Standard		Value: 0.9032843555872834
+
+	Metric: ILD		List: Diversified		Value: 0.9700199363663674
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.75, 0.5, 3.25, 3.667, 2.667, 3.5, 4.5, 3.5, 3.5]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.25, 3.667, 3.208, 4.5, 2.5, 4.0, 4.0, 3.75, 3.667]
+	0.7
+
+-> run 05			[98124,49130,51927,8375,168366,176751,3211,55946,81520,98243]
+	Metric: ILD		List: Standard		Value: 0.9032843555872834
+
+	Metric: ILD		List: Diversified		Value: 0.9728940023692014
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.75, 0.5, 3.667, 2.667, 3.25, 3.5, 4.5, 3.5, 3.5]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.929, 3.667, 3.25, 2.5, 3.5, 4.5, 3.75, 4.0, 4.0, 3.792]
+	0.7
+
+
+
+
+---->> GROUP 3 [261, 591, 391, 525, 226]
+
+-> run 01			[179819,133712,94122,81520,166526,262,934,6104,103366,5901]
+	Metric: ILD		List: Standard		Value: 0.7114673440752308
+
+	Metric: ILD		List: Diversified		Value: 0.9664971584692242
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.125, 3.75, 3.125, 2.357, 3.5, 1.0, 4.0, 3.926, 3.9, 3.926]
+	0.5
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.125, 3.75, 2.0, 4.0, 1.0, 3.905, 3.25, 4.167, 2.0, 4.5]
+	0.5
+
+-> run 02			[179819,133712,81520,94122,166526,262,934,6104,103366,2306]
+	Metric: ILD		List: Standard		Value: 0.7825568810448792
+
+	Metric: ILD		List: Diversified		Value: 0.9620587083898288
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.125, 3.5, 3.75, 4.0, 1.0, 2.357, 3.125, 3.926, 3.9, 2.0]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.125, 3.75, 4.0, 2.0, 1.0, 3.905, 3.25, 4.167, 2.0, 2.583]
+	0.4
+
+-> run 03			[151759,179819,133712,81520,166526,262,934,5398,94122,103366]
+	Metric: ILD		List: Standard		Value: 0.8798610118622142
+
+	Metric: ILD		List: Diversified		Value: 0.9648028711823058
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 2.0, 4.0, 3.125, 3.75, 3.125, 3.5, 4.0, 2.357, 1.0]
+	0.3
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.125, 3.75, 4.0, 1.0, 3.905, 3.25, 4.0, 2.0, 2.0]
+	0.4
+
+-> run 04			[81520,65585,166526,94122,262,133712,1372,6104,103366,179819]
+	Metric: ILD		List: Standard		Value: 0.7717660801999305
+
+	Metric: ILD		List: Diversified		Value: 0.9562387184467026
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [4.0, 3.5, 3.125, 3.125, 2.357, 3.75, 1.0, 2.0, 3.926, 3.926]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [4.0, 3.5, 1.0, 2.0, 3.905, 3.75, 3.345, 4.167, 2.0, 3.125]
+	0.4
+
+-> run 05			[81520,65585,166526,94122,262,133712,6104,1372,103366,2306]
+	Metric: ILD		List: Standard		Value: 0.7825568810448794
+
+	Metric: ILD		List: Diversified		Value: 0.9646681578341509
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [4.0, 3.5, 2.357, 3.75, 3.125, 1.0, 2.0, 3.125, 3.926, 3.9]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [4.0, 3.5, 1.0, 2.0, 3.905, 3.75, 4.167, 3.345, 2.0, 2.583]
+	0.4
+
+
+
+
+---->> GROUP 4 [555, 141, 143, 610, 89]
+
+-> run 01			[26791,61160,26680,26729,5873,167634,1372,6301,4690,3546]
+	Metric: ILD		List: Standard		Value: 0.9033773335587587
+
+	Metric: ILD		List: Diversified		Value: 0.9600014160921703
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 2.357, 3.8, 3.9, 4.5, 3.345, 3.875, 0.5, 4.5, 3.0]
+	0.5
+	
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 2.357, 3.8, 3.8, 3.875, 4.5, 3.345, 4.0, 3.25, 4.5]
+	0.6
+
+-> run 02			[26791,174909,6852,61160,94122,26680,1335,1372,26729,50796]
+	Metric: ILD		List: Standard		Value: 0.8444680192786349
+
+	Metric: ILD		List: DiversifiedValue: 0.9581131087705816
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 4.5, 3.625, 4.0, 2.0, 2.0, 1.0, 2.357, 1.5, 3.125]
+	0.3
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 4.5, 3.625, 2.357, 2.0, 3.8, 1.0, 3.345, 3.8, 2.0]
+	0.4
+
+-> run 03			[26791,99813,94122,179819,55946,6628,3211,136024,79185,1372]
+	Metric: ILD		List: Standard		Value: 0.8337602786748146
+
+	Metric: ILD		List: Diversified		Value: 0.9562084033969247
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 3.875, 3.929, 3.75, 2.357, 0.5, 3.417, 3.125, 4.0, 3.9]
+	0.5
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 3.875, 2.0, 3.125, 4.0, 2.0, 3.75, 3.0, 3.417, 3.345]
+	0.3
+
+-> run 04			[26791,61160,167634,4690,26729,6301,1372,5888,141994,5873]
+	Metric: ILD		List: Standard		Value: 0.9109997408152116
+
+	Metric: ILD		List: Diversified		Value: 0.9729400626114976
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 2.357, 3.875, 3.9, 4.5, 3.25, 3.345, 0.5, 4.0, 2.0]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 2.357, 4.5, 3.25, 3.8, 4.0, 3.345, 5.0, 0.5, 3.875]
+	0.5
+
+-> run 05			[26791,1335,61160,4276,5873,6852,141994,1372,7141,167634]
+	Metric: ILD		List: Standard		Value: 0.7620306817662433
+
+	Metric: ILD		List: Diversified		Value: 0.9579366460612074
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 3.625, 4.0, 2.0, 2.0, 1.0, 1.5, 3.333, 4.0, 2.357]
+	0.3
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [1.5, 1.0, 2.357, 2.5, 3.875, 3.625, 0.5, 3.345, 4.0, 4.5]
+	0.4
+
+
+
+
+---->> GROUP 5 [448, 305, 483, 136, 66] 
+
+-> run 01			[5796,105801,34536,2961,5843,3372,242,100611,7070,1281,]
+	Metric: ILD		List: Standard		Value: 0.9104014571274053
+
+	Metric: ILD		List: Diversified		Value: 0.9402411935710778
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.167, 2.4, 4.133, 2.5, 3.0, 3.786, 4.0, 4.0, 3.0]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.0, 3.167, 2.4, 2.5, 4.0, 3.6, 4.0, 4.0, 4.133]
+	0.5
+
+-> run 02			[5796,105801,34536,2961,103366,2559,3512,5843,1281,100611]
+	Metric: ILD		List: Standard		Value: 0.9250526794950505
+
+	Metric: ILD		List: Diversified		Value: 0.9497814568859904
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.167, 2.4, 4.133, 2.5, 3.0, 2.0, 3.5, 4.0, 1.0]
+	0.2
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.0, 3.167, 2.4, 2.0, 3.0, 3.562, 2.5, 4.133, 4.0]
+	0.3
+
+-> run 03			[5796,25959,34536,105801,100,103366,7980,100611,66744,1281]
+	Metric: ILD		List: Standard		Value: 0.9339475442212773
+
+	Metric: ILD		List: DiversifiedValue: 0.9476248958723357
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.167, 2.5, 4.133, 3.0, 3.786, 2.0, 4.0, 2.786, 4.0]
+	0.4
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 2.5, 3.167, 3.0, 2.786, 2.0, 3.786, 4.0, 4.0, 4.133]
+	0.4
+
+
+-> run 04			[47970,103366,34536,5796,105801,7980,66744,100611,7070,259]
+	Metric: ILD		List: Standard		Value: 0.9123302294020934
+
+	Metric: ILD		List: Diversified		Value: 0.9374162118109114
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [3.833, 2.5, 3.167, 3.2, 4.133, 2.0, 3.0, 3.786, 4.0, 4.0]
+	0.5
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [3.833, 2.0, 3.167, 2.5, 3.0, 3.786, 4.0, 4.0, 4.0, 3.2]
+	0.5
+
+-> run 05			[5796,105801,34536,131439,2961,104944,5843,100611,3372,1942]
+	Metric: ILD		List: Standard		Value: 0.8964087181596319
+
+	Metric: ILD		List: Diversified		Value: 0.947636645996793
+
+	Metric: Precision@10		List: Standard
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.167, 1.0, 2.4, 4.133, 2.5, 3.0, 3.75, 4.25, 3.0]
+	0.3
+
+	Metric: Precision@10		List: Diversified
+	Global mean: 3.501556983616962, movies_list_mean: [2.5, 3.0, 3.167, 3.0, 2.4, 3.75, 2.5, 4.0, 4.0, 4.25]
+	0.4
