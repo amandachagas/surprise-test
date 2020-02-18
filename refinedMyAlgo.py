@@ -270,6 +270,16 @@ class RefinedMyAlgo():
     
         return diversified_list
 
+
+    def divesify_recs_list_bounded_random(self, recs, n=10):
+        '''
+        This function implemented here was based on KEITH BRADLEY and BARRY SMYTH paper: Improving Recommendation Diversity
+        The Bounded Random Selection Algorithm.
+        '''
+        diversified_list = random.sample(recs,n)
+
+        return diversified_list
+
     
     def calc_dist_i_j(self, idx_i, idx_j, title_weight=0.8):
         sim_genre = self.cosine_sim_movies_genres[idx_i][idx_j]
@@ -370,11 +380,11 @@ refinedMyAlgo.set_k()
 
 # # # FIXED GROUP
 # my_group = [77,596,452,243,420]
-# my_group = [527, 387, 288, 610, 504]
+my_group = [527, 387, 288, 610, 504]
 # my_group = [177, 263, 477, 274, 68]
 # my_group = [261, 591, 391, 525, 226]
 # my_group = [555, 141, 143, 610, 89]
-my_group = [448, 305, 483, 136, 66]
+# my_group = [448, 305, 483, 136, 66]
 
 # # # RANDOM GROUP
 # my_group = refinedMyAlgo.random_group(5)
@@ -552,9 +562,15 @@ for item in candidates_list[0:20]:
 
 
 my_candidates = candidates_list.copy()
-final_recs = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
-print("\n\n-->  The top-10 DIVERSIFIED recs are:\n")
-for item in final_recs:
+final_recs_greedy = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
+print("\n\n-->  The top-10 GREEDY DIVERSIFIED recs are:\n")
+for item in final_recs_greedy:
+    print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
+
+my_candidates = candidates_list.copy()
+final_recs_random = refinedMyAlgo.divesify_recs_list_bounded_random(recs=my_candidates)
+print("\n\n-->  The top-10 RANDOM DIVERSIFIED recs are:\n")
+for item in final_recs_random:
     print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
 
 
@@ -567,16 +583,24 @@ print('\n\n')
 
 
 standard_recs = candidates_list[0:10]
-result_ILD_standard = refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)
-print('Metric: ILD\t\tList: Standard\t\tValue: {}\n'.format(result_ILD_standard))
 
-result_ILD_diversified = refinedMyAlgo.get_ILD_score(final_recs, title_weight=0.8)
-print('Metric: ILD\t\tList: Diversified\t\tValue: {}\n'.format(result_ILD_diversified))
+print('ILD - standard recs: {}'.format(refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)))
+print('ILD - div greedy algo: {}'.format(refinedMyAlgo.get_ILD_score(final_recs_greedy, title_weight=0.8)))
+print('ILD - div random algo: {}'.format(refinedMyAlgo.get_ILD_score(final_recs_random, title_weight=0.8)))
+print('P@10 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 10)))
+print('P@10 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 10)))
+print('P@10 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 10)))
 
-print('Metric: Precision@10\t\tList: Standard')
-result_pat10_standard = refinedMyAlgo.precision_at_offline(standard_recs, 10)
-print(result_pat10_standard)
+# result_ILD_standard = refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)
+# print('Metric: ILD\t\tList: Standard\t\tValue: {}\n'.format(result_ILD_standard))
 
-print('Metric: Precision@10\t\tList: Diversified')
-result_pat10_diversified = refinedMyAlgo.precision_at_offline(final_recs, 10)
-print(result_pat10_diversified)
+# result_ILD_diversified = refinedMyAlgo.get_ILD_score(final_recs, title_weight=0.8)
+# print('Metric: ILD\t\tList: Diversified\t\tValue: {}\n'.format(result_ILD_diversified))
+
+# print('Metric: Precision@10\t\tList: Standard')
+# result_pat10_standard = refinedMyAlgo.precision_at_offline(standard_recs, 10)
+# print(result_pat10_standard)
+
+# print('Metric: Precision@10\t\tList: Diversified')
+# result_pat10_diversified = refinedMyAlgo.precision_at_offline(final_recs, 10)
+# print(result_pat10_diversified)

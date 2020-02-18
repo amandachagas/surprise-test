@@ -1,0 +1,66 @@
+---->> GROUP 1 [527, 387, 288, 610, 504]
+
+-> run 01
+	ILD standard	:
+	ILD div greedy	:
+	ILD div random	:
+
+	P@10 standard	:
+	P@10 div greedy	:
+	P@10 div random	:
+
+-> run 02
+	ILD standard	:
+	ILD div greedy	:
+	ILD div random	:
+
+	P@10 standard	:
+	P@10 div greedy	:
+	P@10 div random	:
+
+-> run 03
+	ILD standard	:
+	ILD div greedy	:
+	ILD div random	:
+
+	P@10 standard	:
+	P@10 div greedy	:
+	P@10 div random	:
+
+-> run 04
+	ILD standard	:
+	ILD div greedy	:
+	ILD div random	:
+
+	P@10 standard	:
+	P@10 div greedy	:
+	P@10 div random	:
+
+-> run 05
+	ILD standard	:
+	ILD div greedy	:
+	ILD div random	:
+
+	P@10 standard	:
+	P@10 div greedy	:
+	P@10 div random	:
+
+
+
+---->> GROUP 2 [177, 263, 477, 274, 68]
+
+
+
+
+---->> GROUP 3 [488, 226, 602, 52, 68]
+
+
+
+
+---->> GROUP 4 [77, 596, 452, 243, 420]
+
+
+
+
+
+---->> GROUP 5 [448, 305, 483, 136, 66]
