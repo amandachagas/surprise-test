@@ -380,11 +380,12 @@ refinedMyAlgo.set_k()
 
 # # # FIXED GROUP
 # my_group = [77,596,452,243,420]
-my_group = [527, 387, 288, 610, 504]
+# my_group = [527, 387, 288, 610, 504]
 # my_group = [177, 263, 477, 274, 68]
+# my_group = [488, 226, 602, 52, 68]
 # my_group = [261, 591, 391, 525, 226]
 # my_group = [555, 141, 143, 610, 89]
-# my_group = [448, 305, 483, 136, 66]
+my_group = [448, 305, 483, 136, 66]
 
 # # # RANDOM GROUP
 # my_group = refinedMyAlgo.random_group(5)

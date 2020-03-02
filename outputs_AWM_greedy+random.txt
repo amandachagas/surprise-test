@@ -1,66 +1,245 @@
 ---->> GROUP 1 [527, 387, 288, 610, 504]
 
 -> run 01
-	ILD standard	:
-	ILD div greedy	:
-	ILD div random	:
+	ILD standard	: 0.7953019541614298
+	ILD div greedy	: 0.9787078861191725
+	ILD div random	: 0.9415961502132234
 
-	P@10 standard	:
-	P@10 div greedy	:
-	P@10 div random	:
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.4
+	P@10 div random	: 0.4
 
 -> run 02
-	ILD standard	:
-	ILD div greedy	:
-	ILD div random	:
+	ILD standard	: 0.83595627722388
+	ILD div greedy	: 0.9794474805350205
+	ILD div random	: 0.9269096165856556
 
-	P@10 standard	:
-	P@10 div greedy	:
-	P@10 div random	:
+	P@10 standard	: 0.6
+	P@10 div greedy	: 0.6
+	P@10 div random	: 0.2
 
 -> run 03
-	ILD standard	:
-	ILD div greedy	:
-	ILD div random	:
+	ILD standard	: 0.8046898441895997
+	ILD div greedy	: 0.9786704305770814
+	ILD div random	: 0.9498343426588619
 
-	P@10 standard	:
-	P@10 div greedy	:
-	P@10 div random	:
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.1
 
 -> run 04
-	ILD standard	:
-	ILD div greedy	:
-	ILD div random	:
+	ILD standard	: 0.7022654150181958
+	ILD div greedy	: 0.9680878734647854
+	ILD div random	: 0.9620026451215553
 
-	P@10 standard	:
-	P@10 div greedy	:
-	P@10 div random	:
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.2
 
 -> run 05
-	ILD standard	:
-	ILD div greedy	:
-	ILD div random	:
+	ILD standard	: 0.7826719901093202
+	ILD div greedy	: 0.9647759255163505
+	ILD div random	: 0.913428396728993
 
-	P@10 standard	:
-	P@10 div greedy	:
-	P@10 div random	:
+	P@10 standard	: 0.5
+	P@10 div greedy	: 0.6
+	P@10 div random	: 0.3
 
 
 
 ---->> GROUP 2 [177, 263, 477, 274, 68]
 
+-> run 01
+	ILD standard	: 0.8867713232142258
+	ILD div greedy	: 0.9715281467775868
+	ILD div random	: 0.9628325417950339
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.6
+	P@10 div random	: 0.3
+
+-> run 02
+	ILD standard	: 0.8867713232142258
+	ILD div greedy	: 0.9625387435728876
+	ILD div random	: 0.9544003846259438
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.6
+	P@10 div random	: 0.3
+
+-> run 03
+	ILD standard	: 0.9032843555872834
+	ILD div greedy	: 0.9703775775686588
+	ILD div random	: 0.9703063462249915
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.4
+
+-> run 04
+	ILD standard	: 0.8867713232142257
+	ILD div greedy	: 0.9625387435728876
+	ILD div random	: 0.9518114636326479
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.6
+	P@10 div random	: 0.3
+
+-> run 05
+	ILD standard	: 0.9032843555872834
+	ILD div greedy	: 0.9715281467775868
+	ILD div random	: 0.9337829857250093
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.7
+	P@10 div random	: 0.4
 
 
 
 ---->> GROUP 3 [488, 226, 602, 52, 68]
+
+-> run 01
+	ILD standard	: 0.8920139156044071
+	ILD div greedy	: 0.966798794846502
+	ILD div random	: 0.9697985676457304
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.3
+
+-> run 02
+	ILD standard	: 0.8702020419685647
+	ILD div greedy	: 0.970747543794492
+	ILD div random	: 0.8768227023395017
+
+	P@10 standard	: 0.3
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.4
+
+-> run 03
+	ILD standard	: 0.8702020419685647
+	ILD div greedy	: 0.9619970131026159
+	ILD div random	: 0.9471800896121105
+
+	P@10 standard	: 0.3
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.5
+
+-> run 04
+	ILD standard	: 0.8818772896713497
+	ILD div greedy	: 0.971108625977288
+	ILD div random	: 0.9550575778521848
+
+	P@10 standard	: 0.3
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.5
+
+-> run 05
+	ILD standard	: 0.8337506089491183
+	ILD div greedy	: 0.9756616313236539
+	ILD div random	: 0.9340112560558589
+
+	P@10 standard	: 0.3
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.1
 
 
 
 
 ---->> GROUP 4 [77, 596, 452, 243, 420]
 
+-> run 01
+	ILD standard	: 0.8505838166646339
+	ILD div greedy	: 0.9522913415950041
+	ILD div random	: 0.951958549063721
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.4
+	P@10 div random	: 0.1
+
+-> run 02
+	ILD standard	: 0.8138669593643366
+	ILD div greedy	: 0.9705507902994455
+	ILD div random	: 0.9604825088532633
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.3
+
+-> run 03
+	ILD standard	: 0.8577610904066053
+	ILD div greedy	: 0.9509413556439898
+	ILD div random	: 0.9373745661158465
+
+	P@10 standard	: 0.5
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.3
+
+-> run 04
+	ILD standard	: 0.7624477228928005
+	ILD div greedy	: 0.9318603997344501
+	ILD div random	: 0.953664423885352
+
+	P@10 standard	: 0.3
+	P@10 div greedy	: 0.4
+	P@10 div random	: 0.3
+
+-> run 05
+	ILD standard	: 0.8856317578764273
+	ILD div greedy	: 0.9683581044592141
+	ILD div random	: 0.9363364809443784
+
+	P@10 standard	: 0.5
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.3
+
 
 
 
 
 ---->> GROUP 5 [448, 305, 483, 136, 66]
+
+-> run 01
+	ILD standard	: 0.9148043937915583
+	ILD div greedy	: 0.94185076469001
+	ILD div random	: 0.9562622538784413
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.4
+	P@10 div random	: 0.3
+
+-> run 02
+	ILD standard	: 0.9178876062072044
+	ILD div greedy	: 0.942209485189788
+	ILD div random	: 0.9203903595071468
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.4
+	P@10 div random	: 0.5
+
+-> run 03
+	ILD standard	: 0.9123873254810145
+	ILD div greedy	: 0.9430853210971428
+	ILD div random	: 0.9317932765696845
+
+	P@10 standard	: 0.5
+	P@10 div greedy	: 0.5
+	P@10 div random	: 0.3
+
+-> run 04
+	ILD standard	: 0.914837868893038
+	ILD div greedy	: 0.9533031351106007
+	ILD div random	: 0.9289118635298854
+
+	P@10 standard	: 0.4
+	P@10 div greedy	: 0.4
+	P@10 div random	: 0.5
+
+-> run 05
+	ILD standard	: 0.8867019303506269
+	ILD div greedy	: 0.9450310271629726
+	ILD div random	: 0.9240419189104845
+
+	P@10 standard	: 0.5
+	P@10 div greedy	: 0.6
+	P@10 div random	: 0.6
