@@ -1,0 +1,502 @@
+P@3 - standard recs: 0.3333333333333333
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.2
+P@10 - div random algo: 0.3
+
+
+
+
+P@3 - standard recs: 1.0
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.6
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.6
+P@10 - div random algo: 0.7
+
+
+
+
+P@3 - standard recs: 1.0
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.5
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.2
+P@10 - div random algo: 0.2
+
+
+
+
+P@3 - standard recs: 1.0
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.5
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.0
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.3
+
+
+
+
+P@3 - standard recs: 1.0
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.5
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.0
+P@5 - div random algo: 0.0
+P@10 - div random algo: 0.1
+
+
+MEANS
+	P3
+		standard: 0.8666
+		greedy: 0.3333
+		random: 0.1999
+	P5
+		standard: 0.56
+		greedy: 0.4
+		random: 0.28
+	P10
+		standard: 0.48
+		greedy: 0.58
+		random: 0.32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.6
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.5
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.6
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.0
+P@5 - div random algo: 0.2
+P@10 - div random algo: 0.3
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.2
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.6
+P@10 - div greedy algo: 0.6
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.6
+P@10 - div random algo: 0.3
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.6
+P@10 - div greedy algo: 0.4
+
+P@3 - div random algo: 1.0
+P@5 - div random algo: 0.6
+P@10 - div random algo: 0.5
+
+
+MEANS
+	P3
+		standard: 0.6666
+		greedy: 0.5998
+		random: 0.533
+	P5
+		standard: 0.56
+		greedy: 0.56
+		random: 0.44
+	P10
+		standard: 0.4
+		greedy: 0.56
+		random: 0.36
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P@3 - standard recs: 0.3333333333333333
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.4
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.2
+P@10 - div random algo: 0.3
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.8
+P@10 - div random algo: 0.6
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.6
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.5
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 1.0
+P@5 - div random algo: 1.0
+P@10 - div random algo: 0.7
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.2
+P@10 - div random algo: 0.3
+
+
+MEANS
+	P3
+		standard: 0.5994
+		greedy: 0.5328
+		random: 0.533
+	P5
+		standard: 0.44
+		greedy: 0.44
+		random: 0.52
+	P10
+		standard: 0.34
+		greedy: 0.48
+		random: 0.48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.6
+P@10 - div greedy algo: 0.4
+
+P@3 - div random algo: 0.0
+P@5 - div random algo: 0.0
+P@10 - div random algo: 0.0
+
+
+
+P@3 - standard recs: 1.0
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.5
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.8
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.2
+
+
+
+P@3 - standard recs: 1.0
+P@5 - standard recs: 0.6
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.4
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.6
+P@10 - div random algo: 0.3
+
+
+
+P@3 - standard recs: 0.0
+P@5 - standard recs: 0.2
+P@10 - standard recs: 0.2
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.3
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.5
+
+
+
+P@3 - standard recs: 0.6666666666666666
+P@5 - standard recs: 0.4
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.3333333333333333
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.3
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.2
+P@10 - div random algo: 0.1
+
+
+MEANS
+	P3
+		standard: 0.664
+		greedy: 0.4662
+		random: 0.3333
+	P5
+		standard: 0.44
+		greedy: 0.52
+		random: 0.32
+	P10
+		standard: 0.36
+		greedy: 0.38
+		random: 0.22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P@3 - standard recs: 0.0
+P@5 - standard recs: 0.2
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.0
+P@5 - div greedy algo: 0.2
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.6
+P@10 - div random algo: 0.6
+
+
+
+P@3 - standard recs: 0.0
+P@5 - standard recs: 0.2
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.0
+P@5 - div greedy algo: 0.0
+P@10 - div greedy algo: 0.3
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.8
+P@10 - div random algo: 0.5
+
+
+
+P@3 - standard recs: 0.3333333333333333
+P@5 - standard recs: 0.2
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.0
+P@5 - div greedy algo: 0.2
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.6
+P@10 - div random algo: 0.5
+
+
+
+P@3 - standard recs: 0.0
+P@5 - standard recs: 0.2
+P@10 - standard recs: 0.3
+
+P@3 - div greedy algo: 0.0
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.3
+
+P@3 - div random algo: 0.3333333333333333
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.4
+
+
+
+P@3 - standard recs: 0.0
+P@5 - standard recs: 0.2
+P@10 - standard recs: 0.4
+
+P@3 - div greedy algo: 0.6666666666666666
+P@5 - div greedy algo: 0.4
+P@10 - div greedy algo: 0.5
+
+P@3 - div random algo: 0.6666666666666666
+P@5 - div random algo: 0.4
+P@10 - div random algo: 0.3
+
+
+MEANS
+	P3
+		standard: 0.0667
+		greedy: 0.1333
+		random: 0.594
+	P5
+		standard: 0.2
+		greedy: 0.24
+		random: 0.56
+	P10
+		standard: 0.34
+		greedy: 0.42
+		random: 0.46

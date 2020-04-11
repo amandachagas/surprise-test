@@ -379,12 +379,10 @@ refinedMyAlgo.set_k()
 
 
 # # # FIXED GROUP
-# my_group = [77,596,452,243,420]
 # my_group = [527, 387, 288, 610, 504]
 # my_group = [177, 263, 477, 274, 68]
 # my_group = [488, 226, 602, 52, 68]
-# my_group = [261, 591, 391, 525, 226]
-# my_group = [555, 141, 143, 610, 89]
+# my_group = [77, 596, 452, 243, 420]
 my_group = [448, 305, 483, 136, 66]
 
 # # # RANDOM GROUP
@@ -588,8 +586,19 @@ standard_recs = candidates_list[0:10]
 print('ILD - standard recs: {}'.format(refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)))
 print('ILD - div greedy algo: {}'.format(refinedMyAlgo.get_ILD_score(final_recs_greedy, title_weight=0.8)))
 print('ILD - div random algo: {}'.format(refinedMyAlgo.get_ILD_score(final_recs_random, title_weight=0.8)))
+print('\n')
+print('P@3 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 3)))
+print('P@5 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 5)))
 print('P@10 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 10)))
+print('\n')
+print('\n')
+print('P@3 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 3)))
+print('P@5 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 5)))
 print('P@10 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 10)))
+print('\n')
+print('\n')
+print('P@3 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 3)))
+print('P@5 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 5)))
 print('P@10 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 10)))
 
 # result_ILD_standard = refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)
