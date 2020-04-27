@@ -1,0 +1,1180 @@
+{
+  "recs_standard": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.719
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.676
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.4877495172063499,
+      "movie_relevance": 0.676
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4595076340652058,
+      "movie_relevance": 0.662
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.658
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.4310906756971923,
+      "movie_relevance": 0.657
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.65
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.42308864985874717,
+      "movie_relevance": 0.644
+    }
+  ],
+  "recs_greedy": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.719
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.658
+    },
+    {
+      "movie_id": 172591,
+      "movie_title": "The Godfather Trilogy: 1972-1990",
+      "movie_genres": "(no genres listed)",
+      "movie_similarity": 0.376998339881016,
+      "movie_relevance": 0.638
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.65
+    },
+    {
+      "movie_id": 5901,
+      "movie_title": "Empire",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.36325530470948775,
+      "movie_relevance": 0.623
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.676
+    },
+    {
+      "movie_id": 26729,
+      "movie_title": "Hearts of Darkness: A Filmmakers Apocalypse",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.38987840014213626,
+      "movie_relevance": 0.623
+    },
+    {
+      "movie_id": 5447,
+      "movie_title": "Sunshine State",
+      "movie_genres": "Drama",
+      "movie_similarity": 0.33855457044007464,
+      "movie_relevance": 0.606
+    }
+  ],
+  "recs_random": [
+    {
+      "movie_id": 929,
+      "movie_title": "Foreign Correspondent",
+      "movie_genres": "Drama, Film-Noir, Mystery, Thriller",
+      "movie_similarity": 0.1863425239361725,
+      "movie_relevance": 0.53
+    },
+    {
+      "movie_id": 98799,
+      "movie_title": "Liar's Autobiography: The Untrue Story of Monty Python's Graham Chapman, A",
+      "movie_genres": "Animation, Comedy",
+      "movie_similarity": 0.2909715682761809,
+      "movie_relevance": 0.588
+    },
+    {
+      "movie_id": 67267,
+      "movie_title": "Sunshine Cleaning",
+      "movie_genres": "Comedy, Drama",
+      "movie_similarity": 0.2876961698051281,
+      "movie_relevance": 0.581
+    },
+    {
+      "movie_id": 53453,
+      "movie_title": "Starcrash (a.k.a. Star Crash)",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.30514291006058536,
+      "movie_relevance": 0.585
+    },
+    {
+      "movie_id": 36,
+      "movie_title": "Dead Man Walking",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.55
+    },
+    {
+      "movie_id": 5899,
+      "movie_title": "Zulu",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.528
+    },
+    {
+      "movie_id": 493,
+      "movie_title": "Menace II Society",
+      "movie_genres": "Action, Crime, Drama",
+      "movie_similarity": 0.3457833157639936,
+      "movie_relevance": 0.593
+    },
+    {
+      "movie_id": 79006,
+      "movie_title": "Empire of Dreams: The Story of the 'Star Wars' Trilogy",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.3960481382584945,
+      "movie_relevance": 0.64
+    },
+    {
+      "movie_id": 26729,
+      "movie_title": "Hearts of Darkness: A Filmmakers Apocalypse",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.38987840014213626,
+      "movie_relevance": 0.623
+    },
+    {
+      "movie_id": 3643,
+      "movie_title": "Fighting Seabees, The",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.528
+    }
+  ],
+  "ild_standard": 0.7788736266026708,
+  "ild_greedy": 0.968186207327541,
+  "ild_random": 0.9670307861709116,
+  "p_3_5_10_standard": [
+    0.0,
+    0.2,
+    0.2
+  ],
+  "p_3_5_10_greedy": [
+    0.0,
+    0.2,
+    0.4
+  ],
+  "p_3_5_10_random": [
+    0.0,
+    0.2,
+    0.5
+  ]
+}
+{
+  "recs_standard": [
+    {
+      "movie_id": 65810,
+      "movie_title": "Notorious",
+      "movie_genres": "Drama, Musical",
+      "movie_similarity": 0.8,
+      "movie_relevance": 0.824
+    },
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.72
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.4877495172063499,
+      "movie_relevance": 0.683
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.675
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4595076340652058,
+      "movie_relevance": 0.669
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.665
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.4310906756971923,
+      "movie_relevance": 0.657
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.42308864985874717,
+      "movie_relevance": 0.651
+    }
+  ],
+  "recs_greedy": [
+    {
+      "movie_id": 65810,
+      "movie_title": "Notorious",
+      "movie_genres": "Drama, Musical",
+      "movie_similarity": 0.8,
+      "movie_relevance": 0.824
+    },
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.72
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.665
+    },
+    {
+      "movie_id": 5901,
+      "movie_title": "Empire",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.36325530470948775,
+      "movie_relevance": 0.623
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.633
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.675
+    },
+    {
+      "movie_id": 26729,
+      "movie_title": "Hearts of Darkness: A Filmmakers Apocalypse",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.38987840014213626,
+      "movie_relevance": 0.615
+    },
+    {
+      "movie_id": 45635,
+      "movie_title": "Notorious Bettie Page, The",
+      "movie_genres": "Drama",
+      "movie_similarity": 0.4418704649065114,
+      "movie_relevance": 0.645
+    }
+  ],
+  "recs_random": [
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.42308864985874717,
+      "movie_relevance": 0.651
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 5899,
+      "movie_title": "Zulu",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.52
+    },
+    {
+      "movie_id": 106648,
+      "movie_title": "Guilty of Romance (Koi no tsumi) ",
+      "movie_genres": "Crime, Drama, Horror",
+      "movie_similarity": 0.18576931316136433,
+      "movie_relevance": 0.515
+    },
+    {
+      "movie_id": 65810,
+      "movie_title": "Notorious",
+      "movie_genres": "Drama, Musical",
+      "movie_similarity": 0.8,
+      "movie_relevance": 0.824
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.633
+    },
+    {
+      "movie_id": 130482,
+      "movie_title": "Too Late for Tears",
+      "movie_genres": "Crime, Drama, Film-Noir, Mystery, Thriller",
+      "movie_similarity": 0.19670689918172723,
+      "movie_relevance": 0.518
+    },
+    {
+      "movie_id": 281,
+      "movie_title": "Nobody's Fool",
+      "movie_genres": "Comedy, Drama, Romance",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.52
+    },
+    {
+      "movie_id": 6186,
+      "movie_title": "Gods and Generals",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.52
+    },
+    {
+      "movie_id": 4689,
+      "movie_title": "Cat o' Nine Tails, The (Gatto a nove code, Il)",
+      "movie_genres": "Mystery, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.523
+    }
+  ],
+  "ild_standard": 0.7845164382685823,
+  "ild_greedy": 0.9558174593953572,
+  "ild_random": 0.9682909570425008,
+  "p_3_5_10_standard": [
+    0.0,
+    0.0,
+    0.2
+  ],
+  "p_3_5_10_greedy": [
+    0.0,
+    0.2,
+    0.3
+  ],
+  "p_3_5_10_random": [
+    0.3333333333333333,
+    0.2,
+    0.3
+  ]
+}
+{
+  "recs_standard": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.73
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.685
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.671
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.4877495172063499,
+      "movie_relevance": 0.67
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4595076340652058,
+      "movie_relevance": 0.656
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.4310906756971923,
+      "movie_relevance": 0.652
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.652
+    },
+    {
+      "movie_id": 136024,
+      "movie_title": "The Professional: Golgo 13",
+      "movie_genres": "Action, Animation, Crime",
+      "movie_similarity": 0.4367270246684424,
+      "movie_relevance": 0.649
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.648
+    }
+  ],
+  "recs_greedy": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.73
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.685
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.652
+    },
+    {
+      "movie_id": 136024,
+      "movie_title": "The Professional: Golgo 13",
+      "movie_genres": "Action, Animation, Crime",
+      "movie_similarity": 0.4367270246684424,
+      "movie_relevance": 0.649
+    },
+    {
+      "movie_id": 172591,
+      "movie_title": "The Godfather Trilogy: 1972-1990",
+      "movie_genres": "(no genres listed)",
+      "movie_similarity": 0.376998339881016,
+      "movie_relevance": 0.629
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.648
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.69
+    },
+    {
+      "movie_id": 26729,
+      "movie_title": "Hearts of Darkness: A Filmmakers Apocalypse",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.38987840014213626,
+      "movie_relevance": 0.631
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.671
+    },
+    {
+      "movie_id": 5901,
+      "movie_title": "Empire",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.36325530470948775,
+      "movie_relevance": 0.618
+    }
+  ],
+  "recs_random": [
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.685
+    },
+    {
+      "movie_id": 3445,
+      "movie_title": "Eyes of Laura Mars",
+      "movie_genres": "Mystery, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.528
+    },
+    {
+      "movie_id": 2881,
+      "movie_title": "Double Jeopardy",
+      "movie_genres": "Action, Crime, Drama, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.53
+    },
+    {
+      "movie_id": 1927,
+      "movie_title": "All Quiet on the Western Front",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.536
+    },
+    {
+      "movie_id": 172591,
+      "movie_title": "The Godfather Trilogy: 1972-1990",
+      "movie_genres": "(no genres listed)",
+      "movie_similarity": 0.31649749109651704,
+      "movie_relevance": 0.584
+    },
+    {
+      "movie_id": 2540,
+      "movie_title": "Corruptor, The",
+      "movie_genres": "Action, Crime, Drama, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.53
+    },
+    {
+      "movie_id": 1589,
+      "movie_title": "Cop Land",
+      "movie_genres": "Action, Crime, Drama, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.53
+    },
+    {
+      "movie_id": 84414,
+      "movie_title": "All-Star Superman",
+      "movie_genres": "Action, Adventure, Animation, Sci-Fi",
+      "movie_similarity": 0.3649528496150726,
+      "movie_relevance": 0.619
+    },
+    {
+      "movie_id": 5152,
+      "movie_title": "We Were Soldiers",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.536
+    },
+    {
+      "movie_id": 3728,
+      "movie_title": "One False Move",
+      "movie_genres": "Crime, Drama, Film-Noir, Thriller",
+      "movie_similarity": 0.1805715676469964,
+      "movie_relevance": 0.516
+    }
+  ],
+  "ild_standard": 0.8444076106546748,
+  "ild_greedy": 0.9655604118696862,
+  "ild_random": 0.9441193716837971,
+  "p_3_5_10_standard": [
+    0.0,
+    0.2,
+    0.2
+  ],
+  "p_3_5_10_greedy": [
+    0.0,
+    0.2,
+    0.4
+  ],
+  "p_3_5_10_random": [
+    0.0,
+    0.4,
+    0.4
+  ]
+}
+{
+  "recs_standard": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.719
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.684
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.4877495172063499,
+      "movie_relevance": 0.681
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.669
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4595076340652058,
+      "movie_relevance": 0.667
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.663
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.4310906756971923,
+      "movie_relevance": 0.651
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.42308864985874717,
+      "movie_relevance": 0.649
+    },
+    {
+      "movie_id": 172591,
+      "movie_title": "The Godfather Trilogy: 1972-1990",
+      "movie_genres": "(no genres listed)",
+      "movie_similarity": 0.376998339881016,
+      "movie_relevance": 0.638
+    }
+  ],
+  "recs_greedy": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.719
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.684
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.663
+    },
+    {
+      "movie_id": 172591,
+      "movie_title": "The Godfather Trilogy: 1972-1990",
+      "movie_genres": "(no genres listed)",
+      "movie_similarity": 0.376998339881016,
+      "movie_relevance": 0.638
+    },
+    {
+      "movie_id": 5901,
+      "movie_title": "Empire",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.36325530470948775,
+      "movie_relevance": 0.617
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.627
+    },
+    {
+      "movie_id": 26729,
+      "movie_title": "Hearts of Darkness: A Filmmakers Apocalypse",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.38987840014213626,
+      "movie_relevance": 0.637
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.669
+    },
+    {
+      "movie_id": 631,
+      "movie_title": "All Dogs Go to Heaven 2",
+      "movie_genres": "Adventure, Animation, Children, Fantasy, Musical, Romance",
+      "movie_similarity": 0.3490190811323086,
+      "movie_relevance": 0.602
+    }
+  ],
+  "recs_random": [
+    {
+      "movie_id": 5152,
+      "movie_title": "We Were Soldiers",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.542
+    },
+    {
+      "movie_id": 335,
+      "movie_title": "Underneath",
+      "movie_genres": "Mystery, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.545
+    },
+    {
+      "movie_id": 172229,
+      "movie_title": "Plain Clothes",
+      "movie_genres": "Comedy, Mystery, Romance, Thriller",
+      "movie_similarity": 0.17862892110789294,
+      "movie_relevance": 0.517
+    },
+    {
+      "movie_id": 109042,
+      "movie_title": "Knights of Badassdom",
+      "movie_genres": "Adventure, Comedy, Fantasy",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.52
+    },
+    {
+      "movie_id": 144606,
+      "movie_title": "Confessions of a Dangerous Mind",
+      "movie_genres": "Comedy, Crime, Drama, Romance, Thriller",
+      "movie_similarity": 0.29513817133128134,
+      "movie_relevance": 0.574
+    },
+    {
+      "movie_id": 3219,
+      "movie_title": "Pacific Heights",
+      "movie_genres": "Mystery, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.545
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 80969,
+      "movie_title": "Never Let Me Go",
+      "movie_genres": "Drama, Romance, Sci-Fi",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.527
+    },
+    {
+      "movie_id": 53453,
+      "movie_title": "Starcrash (a.k.a. Star Crash)",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.30514291006058536,
+      "movie_relevance": 0.59
+    },
+    {
+      "movie_id": 3643,
+      "movie_title": "Fighting Seabees, The",
+      "movie_genres": "Action, Drama, War",
+      "movie_similarity": 0.2,
+      "movie_relevance": 0.542
+    }
+  ],
+  "ild_standard": 0.7845164382685826,
+  "ild_greedy": 0.967259986560737,
+  "ild_random": 0.9547292254422187,
+  "p_3_5_10_standard": [
+    0.0,
+    0.2,
+    0.3
+  ],
+  "p_3_5_10_greedy": [
+    0.0,
+    0.4,
+    0.4
+  ],
+  "p_3_5_10_random": [
+    0.0,
+    0.2,
+    0.2
+  ]
+}
+{
+  "recs_standard": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.72
+    },
+    {
+      "movie_id": 51024,
+      "movie_title": "The Odyssey",
+      "movie_genres": "Adventure, Drama, Fantasy",
+      "movie_similarity": 0.5541000812199528,
+      "movie_relevance": 0.699
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.4877495172063499,
+      "movie_relevance": 0.685
+    },
+    {
+      "movie_id": 179819,
+      "movie_title": "Star Wars: The Last Jedi",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.49676353556842356,
+      "movie_relevance": 0.685
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4595076340652058,
+      "movie_relevance": 0.671
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4677668263435114,
+      "movie_relevance": 0.671
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.667
+    },
+    {
+      "movie_id": 1831,
+      "movie_title": "Lost in Space",
+      "movie_genres": "Action, Adventure, Sci-Fi",
+      "movie_similarity": 0.47071193228290487,
+      "movie_relevance": 0.657
+    },
+    {
+      "movie_id": 135216,
+      "movie_title": "The Star Wars Holiday Special",
+      "movie_genres": "Adventure, Children, Comedy, Sci-Fi",
+      "movie_similarity": 0.42308864985874717,
+      "movie_relevance": 0.653
+    }
+  ],
+  "recs_greedy": [
+    {
+      "movie_id": 3830,
+      "movie_title": "Psycho Beach Party",
+      "movie_genres": "Comedy, Horror, Thriller",
+      "movie_similarity": 0.5957348319240856,
+      "movie_relevance": 0.72
+    },
+    {
+      "movie_id": 51024,
+      "movie_title": "The Odyssey",
+      "movie_genres": "Adventure, Drama, Fantasy",
+      "movie_similarity": 0.5541000812199528,
+      "movie_relevance": 0.699
+    },
+    {
+      "movie_id": 94122,
+      "movie_title": "Comic-Con Episode IV: A Fan's Hope",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.45128739340219337,
+      "movie_relevance": 0.667
+    },
+    {
+      "movie_id": 187595,
+      "movie_title": "Solo: A Star Wars Story",
+      "movie_genres": "Action, Adventure, Children, Sci-Fi",
+      "movie_similarity": 0.4595076340652058,
+      "movie_relevance": 0.671
+    },
+    {
+      "movie_id": 2306,
+      "movie_title": "Holy Man",
+      "movie_genres": "Comedy",
+      "movie_similarity": 0.4145306121038608,
+      "movie_relevance": 0.651
+    },
+    {
+      "movie_id": 172591,
+      "movie_title": "The Godfather Trilogy: 1972-1990",
+      "movie_genres": "(no genres listed)",
+      "movie_similarity": 0.376998339881016,
+      "movie_relevance": 0.621
+    },
+    {
+      "movie_id": 1831,
+      "movie_title": "Lost in Space",
+      "movie_genres": "Action, Adventure, Sci-Fi",
+      "movie_similarity": 0.47071193228290487,
+      "movie_relevance": 0.657
+    },
+    {
+      "movie_id": 27473,
+      "movie_title": "American Psycho II: All American Girl",
+      "movie_genres": "Comedy, Crime, Horror, Mystery, Thriller",
+      "movie_similarity": 0.516794023458446,
+      "movie_relevance": 0.68
+    },
+    {
+      "movie_id": 5901,
+      "movie_title": "Empire",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.36325530470948775,
+      "movie_relevance": 0.618
+    },
+    {
+      "movie_id": 26729,
+      "movie_title": "Hearts of Darkness: A Filmmakers Apocalypse",
+      "movie_genres": "Documentary",
+      "movie_similarity": 0.38987840014213626,
+      "movie_relevance": 0.619
+    }
+  ],
+  "recs_random": [
+    {
+      "movie_id": 673,
+      "movie_title": "Space Jam",
+      "movie_genres": "Adventure, Animation, Children, Comedy, Fantasy, Sci-Fi",
+      "movie_similarity": 0.37413613561471665,
+      "movie_relevance": 0.609
+    },
+    {
+      "movie_id": 7988,
+      "movie_title": "Space Truckers",
+      "movie_genres": "Comedy, Sci-Fi",
+      "movie_similarity": 0.39204738811339856,
+      "movie_relevance": 0.618
+    },
+    {
+      "movie_id": 34811,
+      "movie_title": "Pusher II: With Blood on My Hands",
+      "movie_genres": "Action, Crime, Drama, Thriller",
+      "movie_similarity": 0.3016173186650193,
+      "movie_relevance": 0.582
+    },
+    {
+      "movie_id": 4952,
+      "movie_title": "Morons From Outer Space",
+      "movie_genres": "Comedy, Sci-Fi",
+      "movie_similarity": 0.34745254436602013,
+      "movie_relevance": 0.596
+    },
+    {
+      "movie_id": 290,
+      "movie_title": "Once Were Warriors",
+      "movie_genres": "Crime, Drama",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.532
+    },
+    {
+      "movie_id": 26344,
+      "movie_title": "French Connection II",
+      "movie_genres": "Action, Crime, Drama, Thriller",
+      "movie_similarity": 0.32051037077497146,
+      "movie_relevance": 0.591
+    },
+    {
+      "movie_id": 2267,
+      "movie_title": "Mortal Thoughts",
+      "movie_genres": "Mystery, Thriller",
+      "movie_similarity": 0.19999999999999996,
+      "movie_relevance": 0.518
+    },
+    {
+      "movie_id": 98799,
+      "movie_title": "Liar's Autobiography: The Untrue Story of Monty Python's Graham Chapman, A",
+      "movie_genres": "Animation, Comedy",
+      "movie_similarity": 0.2909715682761809,
+      "movie_relevance": 0.589
+    },
+    {
+      "movie_id": 532,
+      "movie_title": "Serial Mom",
+      "movie_genres": "Comedy, Crime, Horror",
+      "movie_similarity": 0.18360957934757535,
+      "movie_relevance": 0.514
+    },
+    {
+      "movie_id": 53453,
+      "movie_title": "Starcrash (a.k.a. Star Crash)",
+      "movie_genres": "Action, Adventure, Fantasy, Sci-Fi",
+      "movie_similarity": 0.30514291006058536,
+      "movie_relevance": 0.594
+    }
+  ],
+  "ild_standard": 0.8243293821689293,
+  "ild_greedy": 0.9752560627240612,
+  "ild_random": 0.9345535507012442,
+  "p_3_5_10_standard": [
+    0.0,
+    0.0,
+    0.2
+  ],
+  "p_3_5_10_greedy": [
+    0.0,
+    0.2,
+    0.4
+  ],
+  "p_3_5_10_random": [
+    0.0,
+    0.2,
+    0.1
+  ]
+}

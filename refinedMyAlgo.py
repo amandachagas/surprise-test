@@ -366,182 +366,333 @@ class RefinedMyAlgo():
         precision = self.binary_mean(movies_list_mean, global_mean)
         return precision
 
+class NpEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        elif isinstance(obj, np.floating):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        else:
+            return super(NpEncoder, self).default(obj)
 
 
-
-print("\n\n-->  Initializing...")
-refinedMyAlgo = RefinedMyAlgo(rating_data='datasets/ml-latest-small/ratings.csv', movie_data='datasets/ml-latest-small/movies.csv')
-refinedMyAlgo.set_k()
-
-
-
-
-
-
-# # # FIXED GROUP
-# my_group = [527, 387, 288, 610, 504]
-# my_group = [177, 263, 477, 274, 68]
-# my_group = [488, 226, 602, 52, 68]
-# my_group = [77, 596, 452, 243, 420]
-my_group = [448, 305, 483, 136, 66]
-
-# # # RANDOM GROUP
-# my_group = refinedMyAlgo.random_group(5)
-print(my_group)
-
-refinedMyAlgo.predict_ratings(users=my_group)
-print(len(refinedMyAlgo.predictions))
+def auto_run(refinedMyAlgo):
+    print("\n\n-->  Initializing...")
+    # refinedMyAlgo = RefinedMyAlgo(rating_data='datasets/ml-latest-small/ratings.csv', movie_data='datasets/ml-latest-small/movies.csv')
+    refinedMyAlgo.set_k()
 
 
 
 
 
-refinedMyAlgo.set_perfil_movies(users=my_group)
-refinedMyAlgo.set_candidate_movies()
 
-# print(refinedMyAlgo.perfil_movies)
-# print(refinedMyAlgo.candidate_movies)
-print(refinedMyAlgo.group_sparse_mtx.head())
+    # # # FIXED GROUP
+    # my_group = [527, 387, 288, 610, 504]
+    # my_group = [177, 263, 477, 274, 68]
+    # my_group = [488, 226, 602, 52, 68]
+    # my_group = [77, 596, 452, 243, 420]
+    my_group = [448, 305, 483, 136, 66]
 
+    # # # RANDOM GROUP
+    # my_group = refinedMyAlgo.random_group(5)
+    print(my_group)
 
-
-
-
-print("\n\n-->  Calculating group matrix FILLED...")
-group_filled_mtx = refinedMyAlgo.group_sparse_mtx.copy()
-
-for index, row in group_filled_mtx.iterrows():
-    for col in list(group_filled_mtx):
-        if(group_filled_mtx.loc[index,col] == 0.0):
-            aux = list(filter(lambda x: x.uid==str(index) and x.iid==str(col), refinedMyAlgo.predictions))
-            group_filled_mtx.loc[index,col] = aux[0].est
-
-group_filled_mtx = group_filled_mtx.round(decimals=3)
-# group_filled_mtx.head()
+    refinedMyAlgo.predict_ratings(users=my_group)
+    print(len(refinedMyAlgo.predictions))
 
 
 
 
 
-'''
-print("\n\n-->  Implementing least misery STRATEGY...")
-########################################################################
-# # Implementing LEAST MISERY ending-up in a dataframe
-########################################################################
-values = []
-labels = []
-for i in range(0,len(list(group_filled_mtx))):
-    my_col = group_filled_mtx.iloc[ : ,i]
-    label = my_col.name
-    my_col = list(my_col)
-    
-    labels.append(label)
-    values.append( float(min(my_col)) )
-    
-# print('Array values: {}, Array labels: {}'.format(values, labels))
-agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+    refinedMyAlgo.set_perfil_movies(users=my_group)
+    refinedMyAlgo.set_candidate_movies()
 
-for i in range(0,len(list(agg_group_perf))):
-    agg_group_perf.iloc[0, i] = values[i]
+    # print(refinedMyAlgo.perfil_movies)
+    # print(refinedMyAlgo.candidate_movies)
+    print(refinedMyAlgo.group_sparse_mtx.head())
+
+
+
+
+
+    print("\n\n-->  Calculating group matrix FILLED...")
+    group_filled_mtx = refinedMyAlgo.group_sparse_mtx.copy()
+
+    for index, row in group_filled_mtx.iterrows():
+        for col in list(group_filled_mtx):
+            if(group_filled_mtx.loc[index,col] == 0.0):
+                aux = list(filter(lambda x: x.uid==str(index) and x.iid==str(col), refinedMyAlgo.predictions))
+                group_filled_mtx.loc[index,col] = aux[0].est
+
+    group_filled_mtx = group_filled_mtx.round(decimals=3)
+    # group_filled_mtx.head()
+
+
+
+
 
     
-agg_group_perf = agg_group_perf.round(decimals=3)
-agg_group_perf.head()
-
-
-print("\n\n-->  Implementing MOST PLEASURE STRATEGY...")
-########################################################################
-# # Implementing MOST PLEASURE ending-up in a dataframe
-########################################################################
-values = []
-labels = []
-for i in range(0,len(list(group_filled_mtx))):
-    my_col = group_filled_mtx.iloc[ : ,i]
-    label = my_col.name
-    my_col = list(my_col)
-    
-    labels.append(label)
-    values.append( float(max(my_col)) )
-    
-# print('Array values: {}, Array labels: {}'.format(values, labels))
-agg_group_perf = pd.DataFrame(index=[900], columns=labels)
-
-for i in range(0,len(list(agg_group_perf))):
-    agg_group_perf.iloc[0, i] = values[i]
-    
-agg_group_perf = agg_group_perf.round(decimals=3)
-agg_group_perf.head()
-'''
-
-
-print("\n\n-->  Implementing AVERAGE WITHOUT MISERY STRATEGY...")
-########################################################################
-# # Implementing AVERAGE WITHOUT MISERY: treshold=2  ending-up in a dataframe
-########################################################################
-values = []
-labels = []
-for i in range(0,len(list(group_filled_mtx))):
-    my_col = group_filled_mtx.iloc[ : ,i]
-    label = my_col.name
-    my_col = list(my_col)
-    
-    labels.append(label)
-    if float(min(my_col)) <= 2 :
+    print("\n\n-->  Implementing least misery STRATEGY...")
+    ########################################################################
+    # # Implementing LEAST MISERY ending-up in a dataframe
+    ########################################################################
+    values = []
+    labels = []
+    for i in range(0,len(list(group_filled_mtx))):
+        my_col = group_filled_mtx.iloc[ : ,i]
+        label = my_col.name
+        my_col = list(my_col)
+        
+        labels.append(label)
         values.append( float(min(my_col)) )
+        
+    # print('Array values: {}, Array labels: {}'.format(values, labels))
+    agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+
+    for i in range(0,len(list(agg_group_perf))):
+        agg_group_perf.iloc[0, i] = values[i]
+
+        
+    agg_group_perf = agg_group_perf.round(decimals=3)
+    agg_group_perf.head()
+
+
+    '''
+    print("\n\n-->  Implementing MOST PLEASURE STRATEGY...")
+    ########################################################################
+    # # Implementing MOST PLEASURE ending-up in a dataframe
+    ########################################################################
+    values = []
+    labels = []
+    for i in range(0,len(list(group_filled_mtx))):
+        my_col = group_filled_mtx.iloc[ : ,i]
+        label = my_col.name
+        my_col = list(my_col)
+        
+        labels.append(label)
+        values.append( float(max(my_col)) )
+        
+    # print('Array values: {}, Array labels: {}'.format(values, labels))
+    agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+
+    for i in range(0,len(list(agg_group_perf))):
+        agg_group_perf.iloc[0, i] = values[i]
+        
+    agg_group_perf = agg_group_perf.round(decimals=3)
+    agg_group_perf.head()
+    
+
+
+    print("\n\n-->  Implementing AVERAGE WITHOUT MISERY STRATEGY...")
+    ########################################################################
+    # # Implementing AVERAGE WITHOUT MISERY: treshold=2  ending-up in a dataframe
+    ########################################################################
+    values = []
+    labels = []
+    for i in range(0,len(list(group_filled_mtx))):
+        my_col = group_filled_mtx.iloc[ : ,i]
+        label = my_col.name
+        my_col = list(my_col)
+        
+        labels.append(label)
+        if float(min(my_col)) <= 2 :
+            values.append( float(min(my_col)) )
+        else:
+            values.append( float( sum(my_col) / len(my_col) ) )
+        
+    # print('Array values: {}, Array labels: {}'.format(values, labels))
+    agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+
+    for i in range(0,len(list(agg_group_perf))):
+        agg_group_perf.iloc[0, i] = values[i]
+
+        
+    agg_group_perf = agg_group_perf.round(decimals=3)
+    agg_group_perf.head()
+    '''
+
+
+
+
+
+    print("\n\n-->  Creating group preferences dict...")
+    group_pref_dict = []
+    for col in list(agg_group_perf):
+        my_dict = {}
+    #     print('Valor: {}, Coluna: {}'.format(agg_group_perf.loc[900,col], col))
+        my_dict['rating'] = agg_group_perf.loc[900,col]
+        my_dict['movieID'] = col
+        group_pref_dict.append(my_dict)
+        
+    group_pref_dict = sorted(group_pref_dict, key = lambda i: i['rating'],reverse=True)
+    group_pref_dict
+
+
+
+
+
+    print("\n\n-->  Calculatin similarity matrix...")
+    refinedMyAlgo.calc_similarity_matrix()
+
+
+
+
+
+
+    references = group_pref_dict[0:10]
+    # references = group_pref_dict
+
+    for item in references:
+        print(item)
+
+
+
+
+
+
+    print("\n\n-->  Calculating recs...")
+    recs = refinedMyAlgo.get_similar_movies(references)
+
+
+
+
+
+
+
+    candidates_list = refinedMyAlgo.get_relevance_score(recs=recs, references=references)
+    # print(len(candidates_list))
+    print("\n\n-->  The top-20 recs are:\n")
+    for item in candidates_list[0:20]:
+        print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
+
+
+
+
+
+
+    my_candidates = candidates_list.copy()
+    final_recs_greedy = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
+    print("\n\n-->  The top-10 GREEDY DIVERSIFIED recs are:\n")
+    for item in final_recs_greedy:
+        print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
+
+    my_candidates = candidates_list.copy()
+    final_recs_random = refinedMyAlgo.divesify_recs_list_bounded_random(recs=my_candidates)
+    print("\n\n-->  The top-10 RANDOM DIVERSIFIED recs are:\n")
+    for item in final_recs_random:
+        print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
+
+
+
+    print('\n\n')
+    print("########################################################################")
+    print("#######################     EVALUATING SYSTEM    #######################")
+    print("########################################################################")
+    print('\n\n')
+
+
+    standard_recs = candidates_list[0:10]
+
+    ild_s = refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)
+    ild_g = refinedMyAlgo.get_ILD_score(final_recs_greedy, title_weight=0.8)
+    ild_r = refinedMyAlgo.get_ILD_score(final_recs_random, title_weight=0.8)
+    p3_s = refinedMyAlgo.precision_at_offline(standard_recs, 3)
+    p3_g = refinedMyAlgo.precision_at_offline(final_recs_greedy, 3)
+    p3_r = refinedMyAlgo.precision_at_offline(final_recs_random, 3)
+    p5_s = refinedMyAlgo.precision_at_offline(standard_recs, 5)
+    p5_g = refinedMyAlgo.precision_at_offline(final_recs_greedy, 5)
+    p5_r = refinedMyAlgo.precision_at_offline(final_recs_random, 5)
+    p10_s = refinedMyAlgo.precision_at_offline(standard_recs, 10)
+    p10_g = refinedMyAlgo.precision_at_offline(final_recs_greedy, 10)
+    p10_r = refinedMyAlgo.precision_at_offline(final_recs_random, 10)
+
+    p_3_5_10_s = [p3_s, p5_s, p10_s]  
+    p_3_5_10_g = [p3_g, p5_g, p10_g]
+    p_3_5_10_r = [p3_r, p5_r, p10_r]
+
+    evaluation = dict()
+    evaluation['ild_s'] = ild_s
+    evaluation['ild_g'] = ild_g
+    evaluation['ild_r'] = ild_r
+    evaluation['p_3_5_10_s'] = p_3_5_10_s
+    evaluation['p_3_5_10_g'] = p_3_5_10_g
+    evaluation['p_3_5_10_r'] = p_3_5_10_r
+
+    total_recs = dict()
+    total_recs['recs_standard'] = standard_recs
+    total_recs['recs_greedy'] = final_recs_greedy
+    total_recs['recs_random'] = final_recs_random
+
+
+
+    print('ILD - standard recs: {}'.format(ild_s))
+    print('ILD - div greedy algo: {}'.format(ild_g))
+    print('ILD - div random algo: {}'.format(ild_r))
+    print('\n')
+    print('P@3 - standard recs: {}\n'.format(p3_s))
+    print('P@5 - standard recs: {}\n'.format(p5_s))
+    print('P@10 - standard recs: {}\n'.format(p10_s))
+    print('\n')
+    print('\n')
+    print('P@3 - div greedy algo: {}\n'.format(p3_g))
+    print('P@5 - div greedy algo: {}\n'.format(p5_g))
+    print('P@10 - div greedy algo: {}\n'.format(p10_g))
+    print('\n')
+    print('\n')
+    print('P@3 - div random algo: {}'.format(p3_r))
+    print('P@5 - div random algo: {}'.format(p5_r))
+    print('P@10 - div random algo: {}'.format(p10_r))
+
+    return total_recs, evaluation
+
+
+
+
+
+
+for i in range(0,5):
+    result = dict()
+    result['recs_standard'] = []
+    result['recs_greedy'] = []
+    result['recs_random'] = []
+    result['ild_standard'] = 0.0
+    result['ild_greedy'] = 0.0
+    result['ild_random'] = 0.0
+    result['p_3_5_10_standard'] = []
+    result['p_3_5_10_greedy'] = []
+    result['p_3_5_10_random'] = []
+
+    refinedMyAlgo = RefinedMyAlgo(rating_data='datasets/ml-latest-small/ratings.csv', movie_data='datasets/ml-latest-small/movies.csv')
+
+    total_recs, evaluation = auto_run(refinedMyAlgo)
+
+    result['recs_standard'] = total_recs['recs_standard']
+    result['recs_greedy'] = total_recs['recs_greedy']
+    result['recs_random'] = total_recs['recs_random']
+    result['ild_standard'] = evaluation['ild_s']
+    result['ild_greedy'] = evaluation['ild_g']
+    result['ild_random'] = evaluation['ild_r']
+    result['p_3_5_10_standard'] = evaluation['p_3_5_10_s']
+    result['p_3_5_10_greedy'] = evaluation['p_3_5_10_g']
+    result['p_3_5_10_random'] = evaluation['p_3_5_10_r']
+
+    print('\n\n\n')
+    print(' - - - - - - - -')
+    print(' - - - - - - - - - -')
+    print(' - - - - - - - - - - - - RUN: {}'.format(i))
+    print(' - - - - - - - - - -')
+    print(' - - - - - - - -')
+    print('\n\n\n')
+
+
+    if i is 0:
+        with open("LM_G5_run.json", "w") as json_file:
+            json_file.write("{}\n".format(json.dumps(result, cls=NpEncoder)))
     else:
-        values.append( float( sum(my_col) / len(my_col) ) )
-    
-# print('Array values: {}, Array labels: {}'.format(values, labels))
-agg_group_perf = pd.DataFrame(index=[900], columns=labels)
-
-for i in range(0,len(list(agg_group_perf))):
-    agg_group_perf.iloc[0, i] = values[i]
-
-    
-agg_group_perf = agg_group_perf.round(decimals=3)
-agg_group_perf.head()
-
-
-
-
-
-print("\n\n-->  Creating group preferences dict...")
-group_pref_dict = []
-for col in list(agg_group_perf):
-    my_dict = {}
-#     print('Valor: {}, Coluna: {}'.format(agg_group_perf.loc[900,col], col))
-    my_dict['rating'] = agg_group_perf.loc[900,col]
-    my_dict['movieID'] = col
-    group_pref_dict.append(my_dict)
-    
-group_pref_dict = sorted(group_pref_dict, key = lambda i: i['rating'],reverse=True)
-group_pref_dict
-
-
-
-
-
-print("\n\n-->  Calculatin similarity matrix...")
-refinedMyAlgo.calc_similarity_matrix()
-
-
-
-
-
-
-references = group_pref_dict[0:10]
-# references = group_pref_dict
-
-for item in references:
-    print(item)
-
-
-
-
-
-
-print("\n\n-->  Calculating recs...")
-recs = refinedMyAlgo.get_similar_movies(references)
+        with open("LM_G5_run.json", "a") as json_file:
+            json_file.write("{}\n".format(json.dumps(result, cls=NpEncoder)))
 
 
 
@@ -549,57 +700,7 @@ recs = refinedMyAlgo.get_similar_movies(references)
 
 
 
-candidates_list = refinedMyAlgo.get_relevance_score(recs=recs, references=references)
-# print(len(candidates_list))
-print("\n\n-->  The top-20 recs are:\n")
-for item in candidates_list[0:20]:
-    print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
 
-
-
-
-
-
-my_candidates = candidates_list.copy()
-final_recs_greedy = refinedMyAlgo.diversify_recs_list(recs=my_candidates)
-print("\n\n-->  The top-10 GREEDY DIVERSIFIED recs are:\n")
-for item in final_recs_greedy:
-    print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
-
-my_candidates = candidates_list.copy()
-final_recs_random = refinedMyAlgo.divesify_recs_list_bounded_random(recs=my_candidates)
-print("\n\n-->  The top-10 RANDOM DIVERSIFIED recs are:\n")
-for item in final_recs_random:
-    print('movieId: {}, relevance: {}, title:{}'.format(item['movie_id'], item['movie_relevance'], item['movie_title']))
-
-
-
-print('\n\n')
-print("########################################################################")
-print("#######################     EVALUATING SYSTEM    #######################")
-print("########################################################################")
-print('\n\n')
-
-
-standard_recs = candidates_list[0:10]
-
-print('ILD - standard recs: {}'.format(refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)))
-print('ILD - div greedy algo: {}'.format(refinedMyAlgo.get_ILD_score(final_recs_greedy, title_weight=0.8)))
-print('ILD - div random algo: {}'.format(refinedMyAlgo.get_ILD_score(final_recs_random, title_weight=0.8)))
-print('\n')
-print('P@3 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 3)))
-print('P@5 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 5)))
-print('P@10 - standard recs: {}\n'.format(refinedMyAlgo.precision_at_offline(standard_recs, 10)))
-print('\n')
-print('\n')
-print('P@3 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 3)))
-print('P@5 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 5)))
-print('P@10 - div greedy algo: {}\n'.format(refinedMyAlgo.precision_at_offline(final_recs_greedy, 10)))
-print('\n')
-print('\n')
-print('P@3 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 3)))
-print('P@5 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 5)))
-print('P@10 - div random algo: {}'.format(refinedMyAlgo.precision_at_offline(final_recs_random, 10)))
 
 # result_ILD_standard = refinedMyAlgo.get_ILD_score(standard_recs, title_weight=0.8)
 # print('Metric: ILD\t\tList: Standard\t\tValue: {}\n'.format(result_ILD_standard))
