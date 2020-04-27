@@ -366,6 +366,44 @@ class RefinedMyAlgo():
         precision = self.binary_mean(movies_list_mean, global_mean)
         return precision
 
+
+
+def apply_aggregation_strategy(group_filled_mtx, technique = 'AWM'):
+    values = []
+    labels = []
+    for i in range(0,len(list(group_filled_mtx))):
+        my_col = group_filled_mtx.iloc[ : ,i]
+        label = my_col.name
+        my_col = list(my_col)
+
+        labels.append(label)
+        values.append(0.0)
+        
+        
+        if technique is 'LM':
+            values.append( float(min(my_col)) )
+        elif technique is 'MP':
+            values.append( float(max(my_col)) )
+        else:
+            if float(min(my_col)) <= 2 :
+                values.append( float(min(my_col)) )
+            else:
+                values.append( float( sum(my_col) / len(my_col) ) )
+                
+
+    print('\n-- -- --  -- > Aggregation Technique: {}\n'.format(technique))
+    
+    # print('Array values: {}, Array labels: {}'.format(values, labels))
+    agg_group_perf = pd.DataFrame(index=[900], columns=labels)
+
+    for i in range(0,len(list(agg_group_perf))):
+        agg_group_perf.iloc[0, i] = values[i]
+
+    agg_group_perf = agg_group_perf.round(decimals=3)
+    
+    return agg_group_perf
+
+
 class NpEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, np.integer):
@@ -378,7 +416,7 @@ class NpEncoder(json.JSONEncoder):
             return super(NpEncoder, self).default(obj)
 
 
-def auto_run(refinedMyAlgo):
+def auto_run(refinedMyAlgo, technique = 'AWM'):
     print("\n\n-->  Initializing...")
     # refinedMyAlgo = RefinedMyAlgo(rating_data='datasets/ml-latest-small/ratings.csv', movie_data='datasets/ml-latest-small/movies.csv')
     refinedMyAlgo.set_k()
@@ -389,11 +427,11 @@ def auto_run(refinedMyAlgo):
 
 
     # # # FIXED GROUP
-    # my_group = [527, 387, 288, 610, 504]
+    my_group = [527, 387, 288, 610, 504]
     # my_group = [177, 263, 477, 274, 68]
     # my_group = [488, 226, 602, 52, 68]
     # my_group = [77, 596, 452, 243, 420]
-    my_group = [448, 305, 483, 136, 66]
+    # my_group = [448, 305, 483, 136, 66]
 
     # # # RANDOM GROUP
     # my_group = refinedMyAlgo.random_group(5)
@@ -433,7 +471,10 @@ def auto_run(refinedMyAlgo):
 
 
 
-    
+    agg_group_perf = apply_aggregation_strategy(group_filled_mtx, technique)
+    agg_group_perf.head()
+
+    '''
     print("\n\n-->  Implementing least misery STRATEGY...")
     ########################################################################
     # # Implementing LEAST MISERY ending-up in a dataframe
@@ -459,7 +500,7 @@ def auto_run(refinedMyAlgo):
     agg_group_perf.head()
 
 
-    '''
+    
     print("\n\n-->  Implementing MOST PLEASURE STRATEGY...")
     ########################################################################
     # # Implementing MOST PLEASURE ending-up in a dataframe
@@ -666,7 +707,7 @@ for i in range(0,5):
 
     refinedMyAlgo = RefinedMyAlgo(rating_data='datasets/ml-latest-small/ratings.csv', movie_data='datasets/ml-latest-small/movies.csv')
 
-    total_recs, evaluation = auto_run(refinedMyAlgo)
+    total_recs, evaluation = auto_run(refinedMyAlgo, technique = 'MP')
 
     result['recs_standard'] = total_recs['recs_standard']
     result['recs_greedy'] = total_recs['recs_greedy']
@@ -688,10 +729,10 @@ for i in range(0,5):
 
 
     if i is 0:
-        with open("LM_G5_run.json", "w") as json_file:
+        with open("MP_G1_run.json", "w") as json_file:
             json_file.write("{}\n".format(json.dumps(result, cls=NpEncoder)))
     else:
-        with open("LM_G5_run.json", "a") as json_file:
+        with open("MP_G1_run.json", "a") as json_file:
             json_file.write("{}\n".format(json.dumps(result, cls=NpEncoder)))
 
 
