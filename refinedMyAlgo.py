@@ -427,11 +427,11 @@ def auto_run(refinedMyAlgo, technique = 'AWM'):
 
 
     # # # FIXED GROUP
-    my_group = [527, 387, 288, 610, 504]
+    # my_group = [527, 387, 288, 610, 504]
     # my_group = [177, 263, 477, 274, 68]
     # my_group = [488, 226, 602, 52, 68]
     # my_group = [77, 596, 452, 243, 420]
-    # my_group = [448, 305, 483, 136, 66]
+    my_group = [448, 305, 483, 136, 66]
 
     # # # RANDOM GROUP
     # my_group = refinedMyAlgo.random_group(5)
@@ -729,10 +729,10 @@ for i in range(0,5):
 
 
     if i is 0:
-        with open("MP_G1_run.json", "w") as json_file:
+        with open("MP_G5_run.json", "w") as json_file:
             json_file.write("{}\n".format(json.dumps(result, cls=NpEncoder)))
     else:
-        with open("MP_G1_run.json", "a") as json_file:
+        with open("MP_G5_run.json", "a") as json_file:
             json_file.write("{}\n".format(json.dumps(result, cls=NpEncoder)))
 
 
