@@ -1,0 +1,1573 @@
+movieId,tags
+1,"['pixar', 'pixar', 'fun']"
+2,"['fantasy', 'magic board game', 'Robin Williams', 'game']"
+3,"['moldy', 'old']"
+5,"['pregnancy', 'remake']"
+7,['remake']
+11,"['politics', 'president']"
+14,"['politics', 'president']"
+16,['Mafia']
+17,['Jane Austen']
+21,['Hollywood']
+22,['serial killer']
+25,['alcoholism']
+26,['Shakespeare']
+28,"['In Netflix queue', 'Jane Austen']"
+29,['kidnapping']
+31,"['high school', 'teacher']"
+32,"['time travel', 'time travel', 'Brad Pitt', 'Bruce Willis', 'mindfuck', 'Post apocalyptic', 'post-apocalyptic', 'remake', 'time travel', 'twist ending']"
+34,"['Animal movie', 'pigs', 'villain nonexistent or not needed for good story']"
+36,"['death penalty', 'Nun']"
+38,['twins']
+39,"['chick flick', 'funny', 'Paul Rudd', 'quotable', 'seen more than once', 'Emma', 'Jane Austen']"
+40,"['In Netflix queue', 'South Africa']"
+41,['Shakespeare']
+43,['England']
+45,['Journalism']
+46,['wedding']
+47,"['mystery', 'twist ending', 'serial killer']"
+50,"['mindfuck', 'suspense', 'thriller', 'tricky', 'twist ending', 'heist']"
+52,"['adoption', 'prostitution']"
+58,['writing']
+62,['music']
+92,['Jekyll and Hyde']
+96,['theater']
+101,"['crime', 'off-beat comedy', 'quirky']"
+104,"['test tag', 'golf', 'Adam Sandler']"
+107,['muppets']
+110,"['beautiful scenery', 'epic', 'historical', 'inspirational', 'Medieval', 'mel gibson', 'Oscar (Best Cinematography)', 'revenge', 'sword fight', 'Scotland']"
+111,['assassination']
+116,['Holocaust']
+122,['dating']
+140,['journalism']
+147,"['addiction', 'heroin', 'Leonardo DiCaprio', 'Mark Wahlberg']"
+150,"['moon', 'NASA', 'space']"
+153,"['superhero', 'superhero']"
+160,['Michael Crichton']
+161,['submarine']
+162,['In Netflix queue']
+175,"['controversial', 'New York City', 'Nudity (Full Frontal)']"
+185,['computers']
+199,['Made me cry']
+215,['generation X']
+216,"['school', 'Adam Sandler', 'stop looking at me swan']"
+222,['Ireland']
+223,"['cynical', 'hilarious', 'independent film', 'quirky', 'witty', 'generation X']"
+224,"['mental illness', 'psychology']"
+230,['Stephen King']
+232,['In Netflix queue']
+235,['movie business']
+237,"['basketball', 'France', 'infertility']"
+246,['basketball']
+247,['Australia']
+248,"['bad', 'Sinbad']"
+249,['Beethoven']
+252,['Einstein']
+257,['court']
+260,"['classic', 'space action', 'action', 'sci-fi', 'EPIC', 'great soundtrack', 'classic sci-fi', 'engrossing adventure', 'EPIC', 'classic', 'Nerd', 'classic sci-fi', 'space action', 'space epic', 'oldie but goodie', 'sci-fi', 'Star Wars', 'ROBOTS AND ANDROIDS', 'space', 'classic sci-fi', 'sci-fi', 'space adventure', 'Star Wars', 'darth vader', 'luke skywalker', 'space opera']"
+261,['Louisa May Alcott']
+262,"['England', 'Girl Power', 'India']"
+272,"['England', 'mental illness']"
+273,['gothic']
+277,['Christmas']
+279,['In Netflix queue']
+280,['prison']
+282,"['disability', 'twins']"
+288,"['brutality', 'controversial', 'dark comedy', 'psychedelic', 'satire', 'stylized']"
+290,['In Netflix queue']
+293,"['assassin', 'Jean Reno', 'hit men', 'Action', 'assassin', 'assassination', 'assassins', 'awkward romance', 'corruption', 'crime', 'disturbing', 'drama', 'French', 'friendship', 'Gary Oldman', 'great acting', 'Guns', 'hit men', 'hitman', 'humorous', 'imdb top 250', 'Jean Reno', 'Lolita theme', 'loneliness', 'love story', 'Luc Besson', 'Natalie Portman', 'organized crime', 'police', 'police corruption', 'quirky', 'sniper', 'tense', 'touching', 'unique']"
+296,"['good dialogue', 'great soundtrack', 'non-linear', 'cult film', 'drugs', 'Quentin Tarantino', 'Tarantino', 'hit men', '1990s', 'achronological', 'action', 'action packed', 'aggressive', 'amazing', 'amazing dialogues', 'anthology', 'assassin', 'atmospheric', 'AWESOME', 'bad ass', 'bad language', 'bad-ass', 'bible', 'biblical references', 'big boys with guns', 'big name actors', 'Black comedy', 'black humor', 'black humour', 'blood', 'blood splatters', 'bloody', 'bruce willis', 'brutality', 'casual violence', 'character development', 'characters', 'classic', 'classic movie', 'coke', 'comedy', 'conversation', 'cool', 'cool style', 'crime', 'crime scene scrubbing', 'cult', 'cult classic', 'cult film', 'dance', 'dancing', 'dark', 'dark comedy', 'dark humor', 'dialogue', 'different', 'diner', 'disjointed timeline', 'disturbing', 'drama', 'drug overdose', 'drugs', 'drugs & music', 'ensemble cast', 'entertaining', 'entirely dialogue', 'episodic', 'exciting', 'fast paced', 'fast-paced', 'film noir', 'film-noir', 'foul language', 'fun', 'funny', 'gangster', 'gangsters', 'genius', 'golden watch', 'good dialogue', 'good music', 'gore', 'great acting', 'great dialogue', 'great soundtrack', 'gritty', 'guns', 'Harvey Keitel', 'heroin', 'Highly quotable', 'hit men', 'hitman', 'homosexuality', 'humour', 'iconic', 'imdb top 250', 'innovative', 'intellectual', 'intelligent', 'intense', 'interesting', 'intertwining storylines', 'interwoven storylines', 'ironic', 'irony', 'John Travolta', 'killer-as-protagonist', 'los angeles', 'Mafia', 'masterpiece', 'meaningless violence', 'milkshake', 'mobster', 'mobsters', 'monologue', 'motherfucker', 'multiple stories', 'multiple storylines', 'neo-noir', 'noir', 'non-linear', 'non-linear timeline', 'nonlinear', 'nonlinear narrative', 'nonlinear storyline', 'nonlinear timeline', 'notable soundtrack', 'offensive', 'organised crime', 'organized crime', 'original', 'original plot', 'out of order', ""Palme d'Or"", 'parody', 'philosophical', 'pop culture references', 'psychological', 'pulp', 'Quentin Tarantino', 'quirky', 'Quotable', 'r:disturbing violent content including rape', 'r:disturbing violent images', 'r:graphic sexuality', 'r:some violence', 'r:strong bloody violence', 'r:strong language', 'r:sustained strong stylized violence', 'r:violence', 'random', 'rape', 'retro', 'Roger Avary', 'royal with cheese', 'Samuel L. Jackson', 'sarcasm', 'satire', 'sexy', 'smart writing', 'sophisticated', 'soundtrack', 'splatter', 'Steve Buscemi', 'storytelling', 'stylish', 'stylized', 'suspense', 'Tarantino', 'thought-provoking', 'thriller', 'travolta', 'twist ending', 'Uma Thurman', 'unique', 'unpredictable', 'unusual', 'very funny', 'violence', 'violent', 'witty']"
+300,['TV']
+307,['Death']
+308,"['marriage', 'cynical']"
+316,['time travel']
+317,['Christmas']
+318,"['prison', 'Stephen King', 'wrongful imprisonment', 'Morgan Freeman']"
+326,['In Netflix queue']
+329,['Enterprise']
+337,['mental illness']
+338,['serial killer']
+339,['coma']
+342,"['Australia', 'weddings']"
+345,"['cross dressing', 'men in drag', 'remade']"
+349,['Tom Clancy']
+350,['John Grisham']
+351,['interracial romance']
+356,"['shrimp', 'Vietnam', 'bubba gump shrimp', 'lieutenant dan', 'stupid is as stupid does', 'bittersweet', 'emotional', 'heartwarming', 'touching']"
+357,['wedding']
+361,['gambling']
+363,"['Holocaust', 'In Netflix queue']"
+364,"['Disney', 'Disney animated feature', 'Oscar (Best Music - Original Score)', 'soundtrack', 'Disney']"
+371,['journalism']
+377,['bus']
+380,['spies']
+381,['alcoholism']
+410,"['black comedy', 'Christina Ricci', 'Christopher Lloyd', 'dark comedy', 'family', 'gothic']"
+412,['Edith Wharton']
+413,['Comedy']
+421,['horses']
+425,"['mental illness', 'Oscar (Best Actress)']"
+431,"['Al Pacino', 'gangster', 'mafia']"
+440,['President']
+454,['John Grisham']
+457,['based on a TV show']
+471,['hula hoop']
+474,['assassination']
+475,['Ireland']
+477,['biopic']
+480,['Dinosaur']
+488,"['Japan', 'sexuality']"
+497,['Shakespeare']
+500,"['cross dressing', 'divorce', 'men in drag']"
+508,['AIDs']
+513,"['radio', 'show business']"
+515,"['Butler', 'Housekeeper']"
+516,['military']
+522,"['Australia', 'racism', 'violence']"
+524,['football']
+527,"['moving', 'thought-provoking', 'Holocaust', 'based on a true story', 'biography', 'disturbing', 'holocaust']"
+529,['chess']
+531,['In Netflix queue']
+534,['C.S. Lewis']
+535,['large cast']
+538,['race']
+539,['Empire State Building']
+540,['bad']
+541,"['sci-fi', 'robots', 'androids', 'artificial intelligence', 'atmospheric', 'cyberpunk', 'future', 'mindfuck', 'Philip K. Dick', 'atmospheric', 'dreamlike', 'existentialism', 'philosophical']"
+543,['beat poetry']
+551,"['Christmas', 'Halloween']"
+552,['knights']
+556,['politics']
+562,['adolescence']
+586,['christmas']
+587,['overrated']
+588,['Disney']
+589,"['apocalypse', 'Arnold Schwarzenegger', 'nuclear war', 'sci-fi', 'Suspense', 'time travel', 'robots', 'Scifi masterpiece']"
+590,"['American Indians', 'Native Americans']"
+592,['superhero']
+593,"['Hannibal Lector', 'disturbing', 'drama', 'gothic', 'psychology', 'suspense']"
+594,['Disney']
+595,['Disney']
+596,['Disney']
+597,['prostitution']
+608,"['based on a true story', 'dark comedy', 'KIDNAPPING', 'Steve Buscemi', 'Coen Brothers']"
+616,['Disney']
+628,"['edward norton', 'psychology', 'suspense', 'thought-provoking', 'twist ending', 'priest']"
+638,['babies']
+647,['Gulf War']
+648,['based on a TV show']
+668,['India']
+670,['India']
+671,['spoof']
+673,['Bugs Bunny']
+707,['bad']
+708,['Veterinarian']
+720,['Aardman']
+728,['In Netflix queue']
+733,"['Alcatraz', 'Michael Bay', 'terrorism']"
+736,['Disaster']
+745,['Aardman']
+748,['aliens']
+750,"['dark comedy', 'Atomic bomb', 'black comedy', 'dark comedy', 'satire', 'purity of essence', 'Slim Pickens', 'black comedy', 'dark comedy', 'Quirky']"
+778,"['based on a book', 'dark comedy', 'narrated', 'drug abuse']"
+780,['aliens']
+800,['In Netflix queue']
+805,['John Grisham']
+818,['based on a TV show']
+830,['adultery']
+832,"['kidnapping', 'GIVE ME BACK MY SON!', 'It was melodramatic and kind of dumb', 'Mel Gibson']"
+836,['seen at the cinema']
+838,['Jane Austen']
+852,['golf']
+858,['Mafia']
+892,['Shakespeare']
+898,['divorce']
+899,['movie business']
+900,['France']
+902,['Capote']
+903,"['falling', 'Alfred Hitchcock', 'Atmospheric', 'imdb top 250', 'James Stewart']"
+904,"['voyeurism', 'imdb top 250', 'James Stewart', 'mystery', 'photographer', 'photography']"
+905,['Screwball']
+906,['Brooch']
+907,['divorce']
+908,"['Mount Rushmore', 'Alfred Hitchcock', 'imdb top 250']"
+909,['adultery']
+910,['men in drag']
+911,['heist']
+912,['start of a beautiful friendship']
+913,['statue']
+914,['George Bernard Shaw']
+915,['rich guy - poor girl']
+916,"['Italy', 'royalty']"
+918,['1900s']
+919,"['Dorothy', 'Toto']"
+920,['Civil War']
+921,['television']
+922,"['movies', 'eerie', 'movie business']"
+923,['Rosebud']
+924,"['Hal', 'space', 'aliens', 'apes', 'Arthur C. Clarke', 'artificial intelligence', 'atmospheric', 'cinematography', 'classic', 'computer', 'confusing ending', 'cult film', 'Dull', 'future', 'futuristic', 'imdb top 250', 'masterpiece', 'meditative', 'music', 'mystery', 'Oscar (Best Effects - Visual Effects)', 'overrated', 'philosophical', 'relaxing', 'revolutionary', 'robots', 'sci-fi', 'setting:space/space ship', 'slow', 'slow paced', 'soundtrack', 'space', 'space travel', 'spacecraft', 'Stanley Kubrick', 'superb soundtrack', 'surreal', 'technology', 'tedious', 'visual', 'visually appealing']"
+926,['Hollywood']
+927,['divorce']
+928,['Mrs. DeWinter']
+929,"['Europe', 'journalism', 'war']"
+930,['assassination']
+931,['amnesia']
+934,['wedding']
+936,"['Cold War', 'Russia']"
+938,['prostitution']
+940,['swashbuckler']
+941,['swashbuckler']
+943,['ghosts']
+944,['Shangri-La']
+945,['Astaire and Rogers']
+947,"['butler', 'homeless', 'screwball']"
+948,['oil']
+950,['Nick and Nora Charles']
+951,['Screwball']
+952,['race']
+953,['Christmas']
+954,['Politics']
+955,"['leopard', 'screwball']"
+956,['adoption']
+965,['fugitive']
+968,['zombies']
+969,['missionary']
+970,['crime']
+971,['Tennessee Williams']
+973,['journalism']
+976,['Hemingway']
+986,['Animal movie']
+991,['Ireland']
+994,['food']
+1006,"['death penalty', 'John Grisham']"
+1010,"['Disney', 'race']"
+1013,['twins']
+1022,['Disney']
+1025,"['Disney', 'King Arthur']"
+1028,"['Disney', 'nanny']"
+1029,['Disney']
+1030,['Disney']
+1032,['Disney']
+1033,['Disney']
+1035,['Rogers and Hammerstein']
+1041,['In Netflix queue']
+1042,['Music']
+1059,"['Amazing Cinematography', 'Leonardo DiCaprio', 'shakespeare', 'updated classics', 'Shakespeare']"
+1066,['Astaire and Rogers']
+1068,['anti-Semitism']
+1076,['governess']
+1079,['fish']
+1080,"['Bible', 'parody', 'religion']"
+1081,['cross dressing']
+1082,['politics']
+1084,"['1920s', 'gangsters']"
+1088,"['dance', 'music']"
+1089,"['ensemble cast', 'nonlinear', 'Quentin Tarantino', 'stylized', 'heist', 'violence', 'humorous', 'neo-noir', 'Quentin Tarantino', 'religion', 'Tarantino']"
+1090,['Vietnam']
+1093,"['1960s', 'Jim Morrison', 'music']"
+1096,['Holocaust']
+1097,['aliens']
+1101,"['predictable', 'Navy']"
+1103,"['1950s', 'adolescence']"
+1104,['Tennessee Williams']
+1120,['freedom of expression']
+1124,['aging']
+1125,['Clousseau']
+1135,['military']
+1136,"['british comedy', 'Monty Python', 'England', 'King Arthur']"
+1147,"['boxing', 'In Netflix queue']"
+1148,['Aardman']
+1171,['politics']
+1177,['Italy']
+1178,"['court', 'military']"
+1179,['crime']
+1183,['adultery']
+1185,['In Netflix queue']
+1187,['disability']
+1188,"['Australia', 'dance']"
+1189,"['In Netflix queue', 'police']"
+1193,"['emotional', 'jack nicholson', 'mental illness']"
+1196,"['I am your father', 'space', 'space opera', 'classic', 'George Lucas', 'Harrison Ford', 'music', 'original plot', 'sci-fi', 'sequel']"
+1197,"['Inigo Montoya', 'six-fingered man']"
+1198,"['adventure', 'archaeology', 'indiana jones', 'Steven Spielberg', 'treasure hunt', 'archaeology', 'ark of the covenant', 'indiana jones']"
+1200,"['action', 'aliens', 'horror', 'sci-fi', 'space', 'space craft', 'SPACE TRAVEL', 'suspense', 'space']"
+1201,['spaghetti western']
+1203,"['court', 'claustrophobic', 'confrontational', 'earnest', 'good dialogue', 'great screenplay', 'gritty', 'Motivational', 'thought-provoking']"
+1204,['Middle East']
+1206,['brainwashing']
+1207,"['Harper Lee', 'racism']"
+1208,['Vietnam']
+1209,['spaghetti western']
+1210,"['darth vader', 'luke skywalker', 'space opera']"
+1212,"['ferris wheel', 'Venice', 'zither']"
+1213,['Mafia']
+1214,['aliens']
+1217,['samurai']
+1219,"['Alfred Hitchcock', 'psychology', 'suspenseful', 'tense', 'Norman Bates', 'Alfred Hitchcock', 'black and white', 'imdb top 250', 'remade']"
+1220,['Saturday Night Live']
+1221,"['Al Pacino', 'Mafia', 'Mafia']"
+1222,"['Vietnam', 'anti-war']"
+1223,['moon']
+1224,['Shakespeare']
+1225,"['Mozart', 'Salieri']"
+1228,['boxing']
+1230,['New York']
+1231,"['NASA', 'space']"
+1233,['submarine']
+1234,['The Entertainer']
+1235,['May-December romance']
+1237,"['chess', 'death', 'atmospheric', 'cerebral', 'existentialism', 'philosophical', 'reflective']"
+1240,"['Action', 'artificial intelligence', 'robots', 'Sci-Fi', 'special effects', 'tense', 'time travel', 'robots']"
+1242,['Civil War']
+1243,['Shakespeare sort of']
+1244,['black and white']
+1245,['Mafia']
+1246,"['highschool', 'High School']"
+1247,['Simon and Garfunkel']
+1249,['hit men']
+1250,['POW']
+1252,['incest']
+1253,['aliens']
+1254,['Cold']
+1257,['skiing']
+1258,"['atmospheric', 'disturbing', 'Horror', 'jack nicholson', 'masterpiece', 'psychological', 'Stanley Kubrick', 'suspense', 'Stephen King']"
+1259,['Stephen King']
+1260,"['serial killer', 'atmospheric', 'chilly', 'creepy', 'menacing', 'mental illness', 'oninous']"
+1262,['POW']
+1263,['Vietnam']
+1266,['revenge']
+1267,"['assassination', 'brainwashing']"
+1269,['murder']
+1270,['time travel']
+1272,['World War II']
+1274,"['animation', 'anime', 'visually stunning']"
+1276,['prison']
+1277,['In Netflix queue']
+1278,['spoof']
+1280,['In Netflix queue']
+1281,['Nazis']
+1282,['Disney']
+1283,['gunfight']
+1284,['Hammett']
+1285,['high school']
+1288,"['music', 'heavy metal', 'mockumentary', 'music']"
+1291,"['archaeology', 'Holy Grail']"
+1292,['television']
+1293,['India']
+1296,['E. M. Forster']
+1299,"['Cambodia', 'Vietnam']"
+1301,"['Shakespeare sort of', 'space']"
+1302,['baseball']
+1303,['India']
+1304,['crime']
+1307,['New York']
+1333,['birds']
+1343,"['horror', 'Juliette Lewis', 'Martin Scorsese', 'Robert De Niro', 'remake']"
+1344,['lawyer']
+1345,"['high school', 'prom', 'Stephen King']"
+1348,['vampires']
+1350,['demons']
+1353,['personals ads']
+1354,['religion']
+1356,['Borg']
+1357,['music']
+1358,['ex-con']
+1361,['In Netflix queue']
+1363,['religion']
+1366,['Arthur Miller']
+1367,"['dogs', 'remake']"
+1372,['Klingons']
+1374,['Captain Kirk']
+1376,['whales']
+1377,['superhero']
+1380,['high school']
+1381,['high school']
+1387,['Shark']
+1389,['shark']
+1393,['sports']
+1394,['Coen Brothers']
+1396,['spying']
+1398,['Hemingway']
+1407,"['slasher', 'spoof']"
+1408,"['Hawkeye', 'James Fennimore Cooper']"
+1411,['Shakespeare']
+1413,['Conan']
+1416,['Andrew Lloyd Weber']
+1423,"['In Netflix queue', 'Vietnam']"
+1441,"['mental illness', 'Not Seen']"
+1446,['In Netflix queue']
+1449,['mockumentary']
+1466,['Mafia']
+1474,['jungle']
+1485,['lawyer']
+1496,['Tolstoy']
+1500,"['hit men', 'reunion']"
+1513,['reunion']
+1537,['ballroom dance']
+1542,['In Netflix queue']
+1544,['dinosaurs']
+1545,['death']
+1569,"['romantic comedy', 'wedding', 'weddings']"
+1573,['transplants']
+1580,['aliens']
+1586,['military']
+1608,['president']
+1610,['Tom Clancy']
+1617,['Police']
+1625,"['mindfuck', 'Mystery', 'plot twist', 'psychological', 'suspense', 'twist ending', 'twist ending', 'Mystery']"
+1635,['1970s']
+1643,"['England', 'Queen Victoria']"
+1645,['lawyers']
+1650,['Henry James']
+1653,"['future', 'intelligent', 'thought-provoking']"
+1663,['military']
+1672,['In Netflix queue']
+1674,['Amish']
+1680,['alternate universe']
+1682,['TV']
+1683,['Henry James']
+1704,"['inspirational', 'heartwarming', 'inspirational']"
+1711,['Savannah']
+1717,"['sequel', 'slasher', 'spoof']"
+1719,"['Canada', 'death']"
+1721,"['shipwreck', 'romance']"
+1726,"['Kevin Costner', 'Post apocalyptic']"
+1732,"['Coen Brothers', 'black comedy', 'bowling', 'classic', 'coen brothers', 'comedy', 'crime', 'Cult classic', 'cult film', 'dark comedy', 'deadpan', 'drugs', 'funny', 'great dialogue', 'great soundtrack', 'Highly quotable', 'imdb top 250', 'Jeff Bridges', 'John Goodman', 'Julianne Moore', 'kidnapping', 'marijuana', 'Nudity (Full Frontal)', 'off-beat comedy', 'Philip Seymour Hoffman', 'quirky', 'ransom', 'rug', 'sarcasm', 'satirical', 'Steve Buscemi', 'violence']"
+1735,['Charles Dickens']
+1748,['amnesia']
+1777,['1980s']
+1779,['good']
+1797,['In Netflix queue']
+1801,['seen more than once']
+1810,['politics']
+1834,['twist ending']
+1836,['No DVD at Netflix']
+1893,['In Netflix queue']
+1900,['In Netflix queue']
+1902,['generation X']
+1909,['conspiracy']
+1912,['heist']
+1913,['Australia']
+1916,"['avant-garde romantic comedy', 'elegiac', 'melancholy', 'quirky', 'wry']"
+1917,['space']
+1921,"['hallucinatory', 'mental illness', 'mindfuck', 'paranoid', 'mathematics', 'artsy', 'atmospheric', 'cerebral', 'enigmatic', 'existentialism', 'hallucinatory', 'insanity', 'paranoia', 'paranoid', 'surreal', 'tense', 'visually appealing']"
+1923,"['Ben Stiller', 'Ben Stiller', 'crude humor', 'goofy']"
+1931,['ships']
+1938,['alcoholism']
+1940,"['anti-Semitism', 'Judaism']"
+1942,"['Huey Long', 'In Netflix queue', 'Robert Penn Warren']"
+1945,"['boxing', 'coulda been a contender']"
+1947,['Gangs']
+1948,['British']
+1950,['racism']
+1951,['Dickens']
+1952,['prostitution']
+1953,"['drugs', 'police']"
+1954,"['boxing', 'sports']"
+1955,['divorce']
+1957,"['Olympics', 'sports']"
+1959,"['adultery', 'Africa']"
+1960,['China']
+1961,['autism']
+1962,['rasicm']
+1975,['Jason']
+1976,['Jason']
+1977,['Jason']
+1978,['Jason']
+1979,['Jason']
+1983,['halloween']
+1984,['halloween']
+1994,['ghosts']
+1995,['ghosts']
+1996,['ghosts']
+1997,['demons']
+2006,"['California', 'Mexico']"
+2011,['time travel']
+2019,['samurai']
+2020,['adultery']
+2022,"['Bible', 'Katzanzakis']"
+2023,"['Al Pacino', 'Andy Garcia', 'Classic', 'Francis Ford Coppola', 'mafia']"
+2028,['World War II']
+2054,['Disney']
+2058,['police']
+2059,['twins']
+2064,"['General Motors', 'Michigan']"
+2065,['In Netflix queue']
+2066,['memory']
+2070,['music']
+2071,"['AIDs', 'In Netflix queue']"
+2076,"['sexuality', 'suburbia']"
+2078,['Disney']
+2080,['Disney']
+2085,['Disney']
+2097,"['carnival', 'Ray Bradbury']"
+2100,['mermaid']
+2108,['weather forecaster']
+2114,['S.E. Hinton']
+2115,['archaeology']
+2116,"['Tolkein', 'classic']"
+2118,['Stephen King']
+2121,['Stephen King']
+2122,['Stephen King']
+2124,"['black comedy', 'Christina Ricci', 'Christopher Lloyd', 'Family', 'gothic', 'quirky']"
+2138,"['atmospheric', 'beautiful']"
+2139,['mice']
+2145,"['1980s', 'high school']"
+2146,['post-college']
+2160,"['Atmospheric', 'creepy', 'paranoia', 'scary', 'suspense', 'demons']"
+2167,['vampires']
+2171,"['aquarium', 'Boston', 'personals ads']"
+2186,['murder']
+2187,['theater']
+2194,"['Capone', 'gangsters']"
+2202,['survival']
+2203,['small towns']
+2206,['paranoia']
+2208,['train']
+2243,['journalism']
+2247,['Mafia']
+2248,"['In Your Eyes', 'Lloyd Dobbler']"
+2249,['Mafia']
+2268,"['court', 'military']"
+2291,['freaks']
+2295,['Screwball']
+2296,['SNL']
+2300,['Broadway']
+2302,['court']
+2310,['adolescence']
+2312,['death penalty']
+2313,['freaks']
+2324,"['Holocaust', 'bittersweet', 'emotional', 'Heartwarming', 'poignant', 'sentimental', 'tear jerker', 'tearjerking']"
+2329,"['thought-provoking', 'racism', 'edward norton', 'emotional', 'politics']"
+2334,['terrorism']
+2335,['football']
+2336,['England']
+2351,['In Netflix queue']
+2355,['Pixar']
+2357,['South America']
+2360,['In Netflix queue']
+2387,"['dark comedy', 'dark humor']"
+2390,['In Netflix queue']
+2391,['heist']
+2393,"['cameo:Whoopi Goldberg', 'space opera', 'Star Trek']"
+2394,"['Bible', 'Moses']"
+2396,['England']
+2410,['boxing']
+2411,['boxing']
+2412,['boxing']
+2420,['martial arts']
+2421,['martial arts']
+2422,['martial arts']
+2423,['christmas']
+2424,"['e-mail', 'remake']"
+2431,"['doctors', 'bad']"
+2442,['In Netflix queue']
+2463,['kidnapping']
+2467,['religion']
+2470,['Australia']
+2471,['Australia']
+2491,['food']
+2494,"['Holocaust', 'Hungary']"
+2502,"['stapler', 'workplace']"
+2505,['Nicolas Cage']
+2506,['disability']
+2517,['Stephen King']
+2529,['twist ending']
+2550,['ghosts']
+2553,['evil children']
+2554,['evil children']
+2565,['Siam']
+2571,"['martial arts', 'sci-fi', 'alternate universe', 'philosophy', 'post apocalyptic']"
+2572,['Shakespeare sort of']
+2579,"['black and white', 'Christopher Nolan', 'directorial debut', 'mindfuck', 'not linear', 'Twist Ending', 'black and white']"
+2581,['high school']
+2583,['southern US']
+2598,['golfing']
+2600,['virtual reality']
+2612,['motherhood']
+2616,['comic book']
+2628,"['prequel', 'the Force']"
+2640,['superhero']
+2641,['superhero']
+2642,['superhero']
+2648,['In Netflix queue']
+2660,['aliens']
+2662,['classic']
+2664,['1950s']
+2677,['In Netflix queue']
+2692,['alternate endings']
+2693,['Star Trek']
+2694,['Adam Sandler']
+2699,['spiders']
+2700,"['adult humor', 'controversial', 'crude humor', 'free speech', 'parody', 'satire', 'south park', 'Trey Parker']"
+2706,"['best comedy', 'Chris Klein', 'dumb', 'Jason Biggs', 'not funny', 'pizza beer', 'Seann William Scott', 'teen']"
+2710,"['claims to be true', 'video']"
+2712,['sexuality']
+2716,['ghosts']
+2717,['Ghosts']
+2719,['remake']
+2723,['superhero']
+2726,['heist']
+2728,"['crucifixion', 'Rome', 'slavery']"
+2731,"['emotional', 'gentle', 'heartwarming', 'lyrical', 'reflective']"
+2745,"['Missionary', 'Priest']"
+2750,"['nostalgia', 'radio']"
+2761,"['robots', 'animation']"
+2762,"['Atmospheric', 'Bruce Willis', 'ghosts', 'imdb top 250', 'mindfuck', 'stylized', 'twist ending', 'ghosts', 'I see dead people']"
+2787,['Stephen King']
+2791,"['aviation', 'spoof']"
+2797,['children']
+2801,['gambling']
+2803,['lawyers']
+2804,['Christmas']
+2827,['aliens']
+2863,['Beatles']
+2871,['river']
+2872,"['England', 'King Arthur']"
+2905,['In Netflix queue']
+2915,['prostitution']
+2918,['High School']
+2919,"['Academy award (Best Supporting Actress)', 'Indonesia', 'journalism']"
+2927,['adultery']
+2935,['gambling']
+2937,['screwball']
+2939,['In Netflix queue']
+2940,['nightclub']
+2941,['island']
+2943,['Vietnam']
+2951,['bad']
+2952,['gambling']
+2953,"['family', 'funny', 'Macaulay Culkin', 'sequel']"
+2959,"['dark comedy', 'psychology', 'thought-provoking', 'twist ending', 'dark comedy', 'violence', 'action', 'atmospheric', 'based on a book', 'Brad Pitt', 'challenging', 'Chuck Palahniuk', 'classic', 'clever', 'complicated', 'consumerism', 'crime', 'dark', 'dark comedy', 'David Fincher', 'disturbing', 'double life', 'Edward Norton', 'fighting', 'great acting', 'helena bonham carter', 'imaginary friend', 'imdb top 250', 'mental illness', 'mind-blowing', 'mindfuck', 'narrated', 'Nudity (Topless)', 'Palahnuik', 'philosophical', 'philosophy', 'postmodern', 'powerful ending', 'psychological', 'psychological thriller', 'psychology', 'quirky', 'satirical', 'schizophrenia', 'social commentary', 'societal criticism', 'stylized', 'surreal', 'TERRORISM', 'thought-provoking', 'twist', 'twist ending', 'violence', 'violent']"
+2966,"['brothers', 'lawn mower']"
+2967,['evil children']
+2968,['time travel']
+2987,['live action/animation']
+3000,"['anime', 'adventure', 'atmospheric', 'fantasy world', 'Studio Ghibli', 'surreal']"
+3006,"['tobacco', 'true story']"
+3007,['In Netflix queue']
+3011,['dance marathon']
+3028,['Shakespeare']
+3030,['samurai']
+3039,"['class', 'Dan Aykroyd']"
+3040,['camp']
+3044,"['memory', 'music']"
+3052,"['irreverent', 'jay and silent bob', 'Kevin Smith', 'satire', 'religion']"
+3060,['In Netflix queue']
+3071,['high school']
+3072,['New York']
+3077,"['In Netflix queue', 'Up series']"
+3081,['Ichabod Crane']
+3087,"['christmas', 'new york']"
+3095,"['depression', 'dust bowl']"
+3097,['remade']
+3098,"['baseball', 'sports']"
+3101,['adultery']
+3108,['homeless']
+3111,['racism']
+3114,"['animation', 'Disney', 'funny', 'original', 'Pixar', 'sequel', 'Tom Hanks', 'Pixar']"
+3115,['men in drag']
+3125,['Graham Greene']
+3134,"['downbeat', 'poignant']"
+3135,['fatherhood']
+3147,['Stephen King']
+3152,['black-and-white']
+3160,['L.A.']
+3174,['Andy Kaufman']
+3175,['spoof']
+3176,"['based on a book', 'creepy', 'disturbing', 'Jude Law', 'murder', 'obsession', 'psychology', 'secrets', 'serial killer', 'suspense', 'Europe', 'murder']"
+3178,['boxing']
+3181,['Shakespeare']
+3186,"['asylum', 'based on a true story', 'Brittany Murphy', 'Mental Hospital', 'psychology', 'winona ryder']"
+3192,['In Netflix queue']
+3210,['high school']
+3211,"['a dingo ate my baby', 'Australia']"
+3247,['nuns']
+3250,['In Netflix queue']
+3258,['plastic surgery']
+3259,['Ireland']
+3260,['E.M. Forster']
+3263,['basketball']
+3265,"['gun fu', 'heroic bloodshed']"
+3266,"['black comedy', 'crazy', 'dark', 'dark comedy', 'dark humor', 'serial killer']"
+3270,['figure skating']
+3273,"['slasher', 'spoof']"
+3281,['sexuality']
+3306,"['big top', 'circus']"
+3307,['blind']
+3310,['orphans']
+3317,['writing']
+3330,"['adolescence', 'sexuality']"
+3338,['In Netflix queue']
+3341,['remade']
+3360,['basketball']
+3384,['subway']
+3385,['Peace Corp']
+3386,"['politics', 'president']"
+3408,"['scandal', 'true story']"
+3420,['lawyers']
+3421,"['college', 'TOGA']"
+3424,"['racism', 'great cinematography']"
+3429,['aardman']
+3435,['Insurance']
+3447,['Pearl S Buck']
+3451,"['Hepburn and Tracy', 'interracial marriage', 'prejudice', 'racism']"
+3456,['In Netflix queue']
+3461,['island']
+3462,['factory']
+3468,['pool']
+3469,"['court', 'evolution', 'religion']"
+3475,['class']
+3481,"['music', 'Nick Hornby']"
+3489,['Peter Pan']
+3498,['In Netflix queue']
+3499,"['claustrophobic', 'horror', 'scary', 'stephen king', 'suspenseful', 'tense', 'thriller']"
+3502,['death']
+3504,['journalism']
+3507,['In Netflix queue']
+3512,['transplants']
+3515,['alternate endings']
+3526,['families']
+3527,"['aliens', 'sci-fi', 'scifi cult', 'aliens', 'Arnold Schwarzenegger', 'dialogue', 'guns', 'Jesse Ventura', 'macho', 'sci-fi', 'scifi cult']"
+3528,['psychiatrist']
+3536,"['priest', 'rabbi']"
+3546,['show business']
+3548,['1920s']
+3549,['Gambling']
+3552,['golf']
+3556,"['sofia coppola', '1970s', 'suicide']"
+3559,['In Netflix queue']
+3566,"['business', 'religion']"
+3578,"['ancient Rome', 'Epic', 'history', 'imdb top 250', 'revenge', 'Rome', 'Russell Crowe', 'Romans']"
+3608,['Pee Wee Herman']
+3629,['mining']
+3671,"['dark humor', 'easygoing', 'silly']"
+3675,['Christmas']
+3676,"['In Netflix queue', 'art house', 'Atmospheric', 'creepy', 'cryptic', 'dark', 'disturbing', 'dreamlike', 'enigmatic', 'fucked up', 'gruesome', 'hallucinatory', 'Insane', 'paranoid', 'strange', 'surreal', 'weird']"
+3683,['Coen Brothers']
+3712,['television']
+3723,['Shakespeare']
+3724,['Vietnam']
+3730,['spying']
+3735,['police']
+3793,"['action', 'comic book', 'hugh jackman', 'marvel', 'superhero', 'superhero']"
+3801,['court']
+3811,['court']
+3816,['missing children']
+3844,['diabetes']
+3849,['disability']
+3859,"['In Netflix queue', 'televangelist']"
+3877,['superhero']
+3897,"['music', 'journalism', 'music', 'Rolling Stone']"
+3910,"['blindness', 'factory']"
+3911,"['satire', 'Dogs']"
+3932,['invisibility']
+3948,"['comedy', 'Robert De Niro']"
+3949,"['drug abuse', 'depressing', 'psychology']"
+3951,['In Netflix queue']
+3967,['ballet']
+3983,['family']
+3988,['Dr. Seuss']
+3994,"['superhero', 'atmospheric', 'comics', 'father-son relationship', 'mindfuck', 'unique', 'atmospheric', 'somber']"
+3996,"['china', 'martial arts']"
+4007,['business']
+4012,['stand-up comedy']
+4015,['bad']
+4019,['writing']
+4024,['Edith Wharton']
+4025,['pageant']
+4027,['bluegrass']
+4029,['movies']
+4034,"['drugs', 'based on a TV show']"
+4046,['Quakers']
+4077,['psychopaths']
+4105,['zombies']
+4113,['Tennessee Williams']
+4117,['In Netflix queue']
+4138,['demons']
+4144,"['atmospheric', 'Beautiful', 'bittersweet', 'dreamy', 'elegant', 'heartbreaking', 'intimate', 'loneliness', 'long takes', 'longing', 'melancholic', 'melancholy', 'moody', 'nocturnal', 'romantic', 'Unique', 'visually appealing', 'visually stunning']"
+4160,['death penalty']
+4164,"['homeless', 'New York']"
+4166,['reality TV']
+4171,"[""Eugene O'Neill""]"
+4174,['In Netflix queue']
+4184,['Christmas']
+4189,"['Bible', 'religion']"
+4190,"['preacher', 'religion']"
+4191,['sexuality']
+4194,['In Netflix queue']
+4204,['virginity']
+4210,"['Hannibal Lecter', 'serial killer']"
+4211,['von Bulow']
+4214,['college']
+4218,['In Netflix queue']
+4221,['football']
+4223,"['Ed Harris', 'Jude Law', 'Rachel Weisz', 'sniper', 'World War II']"
+4226,"['dark', 'Mindfuck', 'nonlinear', 'psychology', 'twist ending', 'mystery', 'psychological', 'twist ending', 'Backwards. memory', 'mystery', 'twist ending', 'cerebral', 'dreamlike']"
+4232,['spying']
+4246,['singletons']
+4259,['Nabokov']
+4262,['Al Pacino']
+4263,['alcoholism']
+4292,['Union']
+4296,['death']
+4306,['fairy tales']
+4312,['In Netflix queue']
+4316,['figure skating']
+4326,"['race', 'rasicm']"
+4333,['Strangers on a Train']
+4343,"['really bad', 'Seann William Scott']"
+4347,['Holocaust']
+4356,['In Netflix queue']
+4359,['adultery']
+4361,['men in drag']
+4370,"['android(s)/cyborg(s)', 'artificial intelligence', 'Bittersweet', 'Steven Spielberg', 'robots']"
+4380,['accident']
+4396,['race']
+4404,['In Netflix queue']
+4446,['sci-fi']
+4447,['lawyers']
+4448,"['heist', 'boring']"
+4454,"['claymation', 'creativity', 'dystopia', 'free to download', 'imagination', 'no dialogue', 'social commentary']"
+4465,['rape']
+4476,['twins']
+4477,['circus']
+4489,"['Africa', 'immigrants']"
+4495,['New York']
+4526,['aliens']
+4537,['hippies']
+4545,['robots']
+4546,"['kidnapping', 'remade']"
+4552,"['""artsy""', 'atmospheric', 'gritty', 'hallucinatory', 'surreal', 'visually stunning']"
+4558,['twins']
+4571,['time travel']
+4600,['doctors']
+4612,['reciprocal spectator']
+4621,['babies']
+4623,['baseball']
+4638,['dinosaurs']
+4639,"['Hollywood', 'movie business']"
+4641,['adolescence']
+4677,['dogs']
+4678,['television']
+4688,['In Netflix queue']
+4708,['reciprocal spectator']
+4725,"['mental hospital', 'psychology', 'suspense', 'Well Done']"
+4787,['prodigies']
+4801,['family']
+4808,['remake']
+4809,"['Nuclear disaster', 'union']"
+4812,"['NASA', 'space']"
+4816,"['ben stiller', 'comedy', 'David Bowie', 'goofy', 'mindless one liners', 'Will Ferrell']"
+4823,['wedding']
+4835,['Loretta Lynn']
+4857,"['Judaism', 'Tradition!']"
+4874,"['aliens', 'psychiatrist']"
+4878,"['atmospheric', 'cult film', 'dreamlike', 'hallucinatory', 'psychological', 'surreal', 'time travel', 'jake gyllenhaal', 'time travel', 'dreamlike', 'hallucinatory', 'mental illness', 'psychology', 'social commentary', 'teen', 'thought-provoking', 'atmospheric', 'cerebral', 'dreamlike', 'enigmatic', 'hallucinatory', 'mental illness', 'mindfuck', 'philosophy', 'psychological', 'quirky', 'surreal', 'thought-provoking', 'weird']"
+4881,['Coen Brothers']
+4896,"['Everything you want is here', 'alan rickman', 'harry potter', 'humorous', 'Magic', 'Magic', 'Wizards']"
+4902,['ghosts']
+4920,['psychology']
+4963,['heist']
+4969,['In Netflix queue']
+4970,"['nightclub', 'singers']"
+4973,['whimsical']
+4979,['new york']
+4980,['time travel']
+4993,"['fantasy', 'high fantasy', 'Magic', 'mythology', 'tolkien', 'wizards', 'Tolkein']"
+4995,['mathematics']
+4998,['racism']
+5008,"['Agatha Christie', 'court']"
+5012,"['cross dressing', 'Judaism']"
+5015,['race']
+5034,['Ghost']
+5064,"['Dumas', 'revenge', 'remake']"
+5088,['irreverent']
+5114,['movie business']
+5120,['In Netflix queue']
+5135,['India']
+5139,['baseball']
+5213,['religion']
+5224,['In Netflix queue']
+5238,['In Netflix queue']
+5254,"['Great movie', 'Wesley Snipes']"
+5266,['crime']
+5291,"['black and white', 'samurai', 'In Netflix queue', 'samurai']"
+5294,['religion']
+5304,['In Netflix queue']
+5316,['World War II']
+5349,['superhero']
+5353,['blind']
+5377,['Nick Hornby']
+5379,"['anti-Semitism', 'Judaism']"
+5388,"['Al Pacino', 'atmospheric', 'Hilary Swank', 'Robin Williams', 'atmospheric', 'insomnia', 'thought-provoking']"
+5398,['boxing']
+5404,['books']
+5445,['future']
+5446,['Australia']
+5450,"['sisterhood', 'women']"
+5451,"['disability', 'mental illness']"
+5459,"['crappy sequel', 'first was much better', 'sequel']"
+5464,"['cinematography', 'Tom Hanks']"
+5470,['Oscar Wilde']
+5475,['In Netflix queue']
+5483,['movie business']
+5498,['In Netflix queue']
+5502,['aliens']
+5505,"['adultery', 'younger men']"
+5527,"['AS Byatt', 'books']"
+5528,"['photography', 'psychopaths']"
+5548,['homeless']
+5577,['adolescence']
+5601,['Animal movie']
+5603,"['crime', 'heist']"
+5618,['anime']
+5629,['Bible']
+5630,['Hannibal Lecter']
+5633,['bombs']
+5644,"['baseball', 'Lou Gehrig']"
+5669,['violence in america']
+5673,"['pudding', 'anger', 'awkward', 'bittersweet', 'hallucinatory', 'quirky', 'sad', 'surreal', 'symbolism', 'tense', 'unconventional', 'unique', 'wistful']"
+5682,['Holocaust']
+5685,['Girl Power']
+5690,"['made me cry', 'orphans', 'beautiful', 'downbeat', 'grim', 'poignant', 'tear jerker', 'tragedy', 'tragic']"
+5694,['70mm']
+5721,"['In Netflix queue', 'Judaism']"
+5747,['World War I']
+5791,['art']
+5792,['dating']
+5802,['teenagers']
+5812,['salute to Douglas Sirk']
+5816,"['Magic', 'Wizards']"
+5820,['music business']
+5875,['short films']
+5876,['Graham Greene']
+5878,['coma']
+5899,['Africa']
+5952,"['Myth', 'Tolkein']"
+5954,"['crime', 'nightclub']"
+5971,['anime']
+5989,"['crime', 'cheating', 'intelligent', 'Leonardo DiCaprio', 'lies', 'smart', 'Tom Hanks', 'twists & turns']"
+5991,"['court', 'jazz', 'murder']"
+5994,['Dickens']
+5995,"['holocaust', 'true story', 'Holocaust']"
+6002,"['drugs', 'planes', 'widows/widowers']"
+6003,['television']
+6016,"['multiple storylines', 'true story', 'crime', 'photography', 'violence', 'not seen']"
+6020,['class']
+6027,['In Netflix queue']
+6031,"['motherhood', 'race']"
+6041,['In Netflix queue']
+6058,"['sequel', 'violent']"
+6063,['doll']
+6090,['ghosts']
+6101,"['Chile', 'politics', 'South America']"
+6104,['spoof']
+6107,['World War II']
+6156,['England']
+6157,"['bad', 'Ben Affleck']"
+6159,['adolescence']
+6163,['obsession']
+6170,['horses']
+6178,"['blind', 'blindness', 'race']"
+6181,"['Civil War', 'Stephen Crane']"
+6183,"['Day and Hudson', 'sexuality']"
+6188,"['comedy', 'Will Ferrell']"
+6195,"['books', 'Stones of Summer']"
+6197,['mental illness']
+6201,['England']
+6214,"['dark', 'disturbing']"
+6216,['World War II']
+6218,['soccer']
+6228,['In Netflix queue']
+6232,"['animal movie', 'lions']"
+6235,"['Holocaust', 'World War II']"
+6238,['immigrants']
+6242,['television']
+6244,['In Netflix queue']
+6245,['prostitution']
+6254,['screwball']
+6268,['adolescence']
+6269,['Big Brothers']
+6273,['L.A.']
+6281,['crime']
+6283,"['amazing artwork', 'anime', 'sci-fi']"
+6286,['amnesia']
+6288,['gangs']
+6289,['Titanic']
+6290,['Rob Zombie']
+6291,"['prostitution', 'Depressing', 'melancholy', 'sad']"
+6296,['mockumentary']
+6297,['children']
+6299,['birds']
+6305,['Ray Bradbury']
+6308,['lawyers']
+6323,['John Cusack']
+6327,"['1970s', 'movies']"
+6331,['spelling bee']
+6333,"['Jean Grey', 'Magneto', 'Rogue', 'superhero', 'Wolverine']"
+6334,['teachers']
+6337,['gambling']
+6339,['trains']
+6341,['art']
+6350,['anime']
+6367,"['Ewan McGregor', 'Renee Zellweger', 'retro']"
+6368,['movies']
+6373,"['religion', 'classic']"
+6375,"['In Netflix queue', 'They Might Be Giants']"
+6377,"['Disney', 'fish', 'heartwarming']"
+6378,['heist']
+6380,['child abuse']
+6385,['Girl Power']
+6390,['Ninotchka remake']
+6400,"['documentary', 'crime']"
+6407,"['Olympics', 'Tokyo']"
+6422,['Civil War']
+6440,['movie business']
+6452,['In Netflix queue']
+6454,['Nazis']
+6466,['In Netflix queue']
+6502,"['zombies', 'zombies']"
+6515,['fugitive']
+6516,['In Netflix queue']
+6534,"['dogs', 'Eric Bana', 'mad scientist', 'marvel']"
+6535,['politics']
+6536,['swashbuckler']
+6539,['swashbuckler']
+6541,"['captain nemo', 'comic book', 'gothic', 'Peta Wilson', 'Sean Connery', 'superhero']"
+6545,['Dodie Smith']
+6547,['flood']
+6552,['immigration']
+6564,"['adventure', 'Angelina Jolie', 'heroine in tight suit']"
+6565,['horses']
+6579,['Japan']
+6591,['religion']
+6592,['marriage']
+6603,['Othello']
+6609,['Bible']
+6620,['cancer']
+6636,['road trip']
+6639,['blindness']
+6650,"['family', 'multiple roles', 'murder']"
+6660,['ballet']
+6662,['Clousseau']
+6667,['FBI']
+6668,['In Netflix queue']
+6669,"['terminal illness', 'meditative', 'philosophical', 'poignant', 'purposefulness']"
+6708,"['con men', 'fatherhood']"
+6710,['vertriloquism']
+6711,"['atmospheric', 'Japan']"
+6713,['In Netflix queue']
+6724,['In Netflix queue']
+6732,['matchmaker']
+6744,['vampire']
+6753,['Animal movie']
+6768,['religion']
+6770,"['adultery', 'terminal illness']"
+6773,['biking']
+6776,['India']
+6785,['Lonesome Polecat']
+6786,['In Netflix queue']
+6787,"['journalism', 'Watergate', 'Deep Throat']"
+6788,['pregnancy']
+6791,['Food']
+6807,['british comedy']
+6810,['domestic violence']
+6818,"['atmospheric', 'bleak', 'disturbing', 'gritty', 'harsh']"
+6820,['werewolf']
+6832,['amnesia']
+6849,['Christmas']
+6852,"['black and white', 'Capote', 'crime', 'death penalty', 'murder']"
+6856,['biopic']
+6863,['school']
+6867,['trains']
+6870,"['child abuse', 'kidnapping']"
+6874,"['martial arts', 'revenge']"
+6881,['Thanksgiving']
+6890,"['adolescence', 'violence in america']"
+6909,['transplants']
+6912,['Rita Hayworth can dance!']
+6918,['India']
+6932,['journalism']
+6936,['christmas']
+6938,"['big wave', 'surfing']"
+6944,"['remake', 'wedding']"
+6948,"['music business', 'rap']"
+6953,['DEPRESSING']
+6963,['Amish']
+6970,['Hepburn and Tracy']
+6979,['Cold War']
+6981,['religion']
+6984,['Dickens']
+6985,['saint']
+6993,['family']
+7013,['good and evil']
+7018,"['court', 'Scott Turow']"
+7020,['Notable Nudity']
+7022,"['based on a book', 'bloody', 'brutal', 'controversial', 'dystopia', 'goretastic', 'satire', 'social commentary', 'survival', 'violence']"
+7023,['In Netflix queue']
+7024,"['bleak', 'confrontational', 'disturbing', 'harsh', 'haunting', 'inhumane', 'thought-provoking']"
+7025,['In Netflix queue']
+7049,['Astaire and Rogers']
+7050,['Astaire and Rogers']
+7053,['Astaire and Rogers']
+7055,['Astaire and Rogers']
+7059,['horses']
+7061,['terminal illness']
+7062,"['birds', 'prison']"
+7069,"['In Netflix queue', 'Shakespeare']"
+7070,['cattle drive']
+7071,['In Netflix queue']
+7073,['Clousseau']
+7078,"['Bette Davis', 'Oscar (Best Actress)']"
+7079,['disability']
+7086,['George Bernard Shaw']
+7087,['E.M. Forster']
+7088,['In Netflix queue']
+7090,['martial arts']
+7091,['Marx brothers']
+7121,['Hepburn and Tracy']
+7132,"['Marx brothers', 'opera']"
+7139,['immigrants']
+7141,['In Netflix queue']
+7147,"['dreamlike', 'sentimental', 'surreal', 'Tim Burton']"
+7153,"['Adventure', 'ensemble cast', 'fantasy', 'fantasy world', 'great soundtrack', 'lord of the rings', 'scenic', 'stylized', 'Tolkien', 'Tolkein']"
+7156,['Vietnam']
+7158,['real estate']
+7160,['serial killer']
+7162,['Civil War']
+7190,['Charlotte Bronte']
+7212,"['cross dressing', 'men in drag']"
+7217,['amnesia']
+7218,['In Netflix queue']
+7219,['truckers']
+7234,['circus']
+7254,"['alternate reality', 'sci-fi', 'science fiction', 'time travel']"
+7256,['mountain climbing']
+7285,['adolescence']
+7301,"['priest', 'religion']"
+7318,['religion']
+7323,['Cold War']
+7361,"['alternate reality', 'memory', 'thought-provoking', 'jim carrey', 'memory', 'cult film', 'imagination', 'Jim Carrey', 'love', 'surreal', 'arthouse', 'artistic', 'atmospheric', 'beautiful', 'bittersweet', 'colourful', 'comedy', 'dreamlike', 'emotional', 'feel-good', 'happpiness', 'humane', 'insightful', 'intelligent', 'lovely', 'melancholy', 'mind-bending', 'philosophy', 'quirky', 'quirky romantic', 'romantic', 'surreal', 'surrealism', 'thought-provoking']"
+7371,['Grace']
+7382,"['adolescence', 'crime', 'for katie']"
+7438,['revenge']
+7439,['comic book']
+7440,['Holocaust']
+7444,['Mark Ruffalo']
+7451,"['clever', 'High School', 'lesbian subtext', 'High School']"
+7479,['World War II']
+7493,['multiple personalities']
+7572,['cancer']
+7584,"['Hepburn and Tracy', 'marriage']"
+7614,['Rogers and Hammerstein']
+7618,"['biopic', 'In Netflix queue']"
+7619,"['blindness', 'deaf']"
+7646,['Stephen King']
+7649,['space station']
+7700,['In Netflix queue']
+7705,"['Hepburn and Tracy', 'sports']"
+7713,['sexuality']
+7714,['King Arthur']
+7728,['adultery']
+7748,['In Netflix queue']
+7766,['MacBeth']
+7789,['terrorism']
+7792,['In Netflix queue']
+7831,['Nick and Nora Charles']
+7832,['Nick and Nora Charles']
+7833,['Nick and Nora Charles']
+7834,['Nick and Nora Charles']
+7835,['Nick and Nora Charles']
+7924,['In Netflix queue']
+7926,['In Netflix queue']
+7932,"['Amtrak', 'Homeless', 'independent', 'New York', 'Sundance award winner', 'Train']"
+7934,['psychology']
+7936,['austere']
+7981,['police']
+7983,['show business']
+8011,['politics']
+8014,['In Netflix queue']
+8019,['remade']
+8033,['In Netflix queue']
+8094,['In Netflix queue']
+8153,['Van Gogh']
+8167,['swashbuckler']
+8183,['In Netflix queue']
+8188,['Not available from Netflix']
+8190,['In Netflix queue']
+8191,['Anne Boleyn']
+8197,['In Netflix queue']
+8207,['assassination']
+8228,['heist']
+8235,['Clock']
+8266,['Prince']
+8275,['In Netflix queue']
+8335,['heartbreaking']
+8337,['military']
+8338,"['convent', 'religion']"
+8341,['Dickens']
+8360,['ogres']
+8366,"['pregnancy', 'religion']"
+8368,"['Magic', 'Wizards']"
+8375,['politics']
+8376,['high school']
+8379,['In Netflix queue']
+8382,['death']
+8424,['divorce']
+8446,['World War II']
+8463,['deafness']
+8464,"['food', 'McDonalds']"
+8477,['post-apocalyptic']
+8507,['circus']
+8530,['Ireland']
+8533,"['memory loss', 'romance', 'sad']"
+8580,"['fairy tales', 'In Netflix queue']"
+8607,['In Netflix queue']
+8609,['In Netflix queue']
+8622,"['politics', 'terrorism']"
+8636,['Doc Ock']
+8638,['generation X']
+8641,"['hilarious', 'Steve Carell', 'Will Ferrell', 'stupid', 'awesome', 'comedy', 'Will Ferrell']"
+8645,"['drugs', 'immigrants']"
+8695,['court']
+8714,['Cole Porter']
+8754,['Oscar (Best Actress)']
+8765,['In Netflix queue']
+8783,"['Atmospheric', 'good soundtrack', 'M. Night Shyamalan']"
+8784,['psychology']
+8796,['Rome']
+8809,['Australia']
+8827,['Stand Up']
+8838,['In Netflix queue']
+8874,['zombies']
+8875,"['alcoholism', 'marriage']"
+8879,"['Agatha Christie', 'Oscar (Best Supporting Actress)', 'train']"
+8880,['disability']
+8914,['time travel']
+8920,['Oscar (Best Actress)']
+8938,"['parenthood', 'psychology']"
+8943,['stage']
+8949,['wine']
+8950,"['Christian Bale', 'creepy', 'powerful ending', 'psychology', 'schizophrenia', 'twist ending', 'psychology']"
+8951,['abortion']
+8957,"['brutal', 'clever', 'Disturbing', 'great ending', 'mindfuck', 'surprise ending', 'suspense']"
+8958,['biopic']
+8961,"['Disney', 'superhero', 'animation', 'Samuel L. Jackson']"
+8970,['Peter Pan']
+8979,['Hearst']
+8983,['martial arts']
+8998,['In Netflix queue']
+9010,['cruel characters']
+9018,['journalism']
+25753,['gold']
+25771,"['mindfuck', 'surreal', 'surrealism']"
+25825,['revenge']
+25841,['show business']
+25855,['In Netflix queue']
+25865,['In Netflix queue']
+25886,['made me cry']
+25940,['mirrors']
+25952,['In Netflix queue']
+26085,['Not available from Netflix']
+26131,['In Netflix queue']
+26151,['donkey']
+26242,['In Netflix queue']
+26662,['anime']
+26717,"['boring', 'psychedelic', 'symbolic']"
+26776,['In Netflix queue']
+27020,"['drugs', 'lesbian']"
+27156,"['anime', 'end of the world', 'epic', 'mecha', 'psychology']"
+27660,"['animation', 'anime', 'cyberpunk', 'dark', 'Matrix', 'sci-fi']"
+27706,"['dark comedy', 'Jim Carrey', 'meryl streep', 'quirky', 'stylized']"
+27731,['In Netflix queue']
+27741,['In Netflix queue']
+27773,"['bizarre', 'claustrophobic', 'depressing', 'disturbing', 'hallucinatory', 'paranoid', 'surreal', 'twisted']"
+27790,"['religion', 'saints']"
+27808,"['Adam Sandler', 'family', 'sweet']"
+27820,"['Animal movie', 'camels']"
+27831,"['British gangster', 'confusing', 'daniel craig', 'Exquisite plotting.', 'organized crime', 'stylish', 'Tom Hardy']"
+27834,['fatherhood']
+27838,['revenge']
+27878,['India']
+27882,['surfing']
+30707,['boxing']
+30749,['genocide']
+30793,['roald dahl']
+30810,"['heartwarming', 'off-beat comedy', 'quirky', 'trippy', 'visually appealing', 'whimsical']"
+30812,"['biopic', 'Howard Hughes', 'movie business']"
+30820,['child abuse']
+30822,['busniess']
+30825,"['Ben Stiller', 'Robert De Niro']"
+30850,['Shakespeare']
+30892,"['Animation', 'Documentary', 'Henry Darger']"
+31030,['motherhood']
+31437,['orphans']
+31658,"['anime', 'fantasy world', 'Hayao Miyazaki', 'Studio Ghibli', '06 Oscar Nominated Best Movie - Animation', 'In Netflix queue']"
+31903,['marriage']
+31923,['In Netflix queue']
+32160,['In Netflix queue']
+32371,['In Netflix queue']
+32582,"['birds', 'parrots']"
+32584,['fatherhood']
+32587,['cult']
+33154,"['business', 'money', 'scandal']"
+33162,"['David Thewlis', 'Eva Green', 'Liam Neeson', 'Orlando Bloom']"
+33166,['racism']
+33493,"['space', 'space opera']"
+33660,"['boksdrama', 'boxing']"
+34150,"['Chris Evans', 'comic book', 'heroine in tight suit', 'Jessica Alba', 'sexy female scientist', 'superhero']"
+34162,['stiller']
+34271,['hip hop']
+34323,['Rob Zombie']
+34359,['pregnancy']
+34405,"['predictable', 'Firefly']"
+34437,['In Netflix queue']
+34482,['In Netflix queue']
+34528,['pregnancy']
+34542,"['Animal movie', 'bears']"
+35015,"['Animal movie', 'In Netflix queue']"
+35836,"['BEST PICTURE', 'classic', 'hilarious', 'steve carell']"
+36517,"['Africa', 'business', 'politics']"
+36527,['mathematics']
+36529,['wapendrama']
+36535,['In Netflix queue']
+37240,['In Netflix queue']
+37384,['restaurant']
+37729,"['gothic', 'helena bonham carter', 'Johnny Depp', 'Tim Burton', 'visually appealing', 'animation', '06 Oscar Nominated Best Movie - Animation']"
+37733,['In Netflix queue']
+37736,['Dickens']
+37741,['Truman Capote']
+38038,"['06 Oscar Nominated Best Movie - Animation', 'Aardman']"
+38061,"['black comedy', 'clever', 'fast-paced dialogue', 'good dialogue', 'Robert Downey Jr.', 'witty', 'In Netflix queue']"
+38798,['sisters']
+38886,['divorce']
+39234,"['courtroom drama', 'In Netflix queue']"
+39292,"['In Netflix queue', 'journalism', 'McCarthy hearings', 'Morrow']"
+40278,"['Jake Gyllenhaal', 'Modern war']"
+40491,['depression']
+40583,['In Netflix queue']
+40629,['In Netflix queue']
+40815,"['Magic', 'Wizards']"
+40819,['Johnny Cash']
+40955,['transvestite']
+41566,['C.S. Lewis']
+41569,['big budget']
+41997,['In Netflix queue']
+42002,['In Netflix queue']
+42422,['love']
+42632,['brutality']
+42740,['In Netflix queue']
+44665,['twist ending']
+44889,['satire']
+45447,"['adventure', 'Audrey Tautou', 'conspiracy theory', 'Mystery', 'Paris', 'Tom Hanks', 'treasure hunt']"
+45499,"['Halle Berry', 'Hugh Jackman']"
+45730,"['bad', 'disappointing', 'faerie tale', 'fairy tale', 'far fetched', 'M. Night Shyamalan', 'Paul Giamatti']"
+45880,"['cinematography', 'lyrical']"
+46723,"['Brad Pitt', 'cate blanchett', 'multiple storylines', 'social commentary']"
+46972,"['Ben Stiller', 'Robin Williams']"
+46976,"['emma thompson', 'Maggie Gyllenhaal', 'modern fantasy', 'romance', 'surreal', 'Will Ferrell']"
+47610,"['costume drama', 'Edward Norton', 'magic', 'Paul Giamatti']"
+48394,"['atmospheric', 'bittersweet', 'visually appealing']"
+48516,"['way too long', 'Leonardo DiCaprio', 'suspense', 'twist ending', 'undercover cop', 'atmospheric', 'Jack Nicholson', 'Leonardo DiCaprio', 'Martin Scorsese', 'suspense']"
+48698,['the catholic church is the most corrupt organization in history']
+48780,"['ummarti2006', 'atmospheric', 'enigmatic']"
+49130,['Marion Cotillard']
+49530,"['Africa', 'corruption', 'Jennifer Connelly', 'justice', 'Leonardo DiCaprio']"
+50872,"['a clever chef rat', 'inspirational', 'clever', 'inspirational']"
+51255,['british comedy']
+52287,['Something for everyone in this one... saw it without and plan on seeing it with kids!']
+52604,"['Anthony Hopkins', 'courtroom drama', 'twist ending']"
+52712,"['HORRIBLE ACTING', 'interesting']"
+52885,['dreamlike']
+53127,"['based on a play', 'conspiracy theory', 'creepy', 'Insanity', 'paranoia', 'PTSD']"
+53464,"['bad acting', 'bad jokes', 'bad plot', 'Chris Evans', 'Jessica Alba', 'Marvel', 'sexy female scientist']"
+53468,['zombies']
+54286,"['assassin', 'assassin-in-training (scene)', 'espionage', 'Robert Ludlum']"
+54503,"['friendship', 'high school', 'Michael Cera', 'nerds', 'self discovery', 'shenanigans', 'virginity']"
+54997,['Christian Bale']
+55167,['anime']
+55290,"['Casey Affleck', 'great performances', 'twist']"
+55721,['Favelas']
+55765,"['corruption', 'Denzel Washington', 'mafia', 'organized crime']"
+56174,"['alone in the world', 'apocalypse', 'based on a book', 'last man on earth', 'plot holes', 'Post apocalyptic', 'post-apocalyptic', 'religion', 'vampire']"
+56367,"['Michael Cera', 'notable soundtrack', 'pregnancy', 'teenage pregnancy', 'witty']"
+56782,"['atmospheric', 'cerebral', 'character study', 'gritty', 'intense', 'long shots', 'morality', 'visually appealing']"
+57502,"['abstract', 'dark', 'psychedelic', 'surreal']"
+57669,"['black comedy', 'Colin Farrell', 'dark comedy', 'drugs', 'friendship', 'irreverent', 'Ralph Fiennes', 'stylized']"
+58047,"['Rachel Weisz', 'Ryan Reynolds']"
+58295,"['heist', 'robbery', 'small time criminals']"
+58301,"['dark humor', 'dark', 'dark humor', 'intelligent', 'thought-provoking']"
+58559,"['psychology', 'superhero', 'dark', 'gritty']"
+59103,"['jackie chan', 'kung fu']"
+59141,['movies about movies']
+59501,"['fantasy', 'lion', 'narnia', 'Tilda Swinton']"
+60069,"['last man on earth', 'love story', 'Post apocalyptic', 'social commentary']"
+60074,"['bad script', 'Charlize Theron', 'Will Smith']"
+60126,"['Anne Hathaway', 'Steve Carell']"
+60516,['enjoyable']
+60756,"['funny', 'Highly quotable', 'will ferrell', 'comedy', 'funny', 'will ferrell', 'funny', 'will ferrell']"
+60950,['threesome']
+61024,"['comedy', 'James Franco', 'Seth Rogen', 'Stoner Movie']"
+61323,"['dark comedy', 'Brad Pitt', 'Coen Bros', 'Coen Brothers', 'dark comedy', 'espionage', 'George Clooney', 'John Malkovich', 'satire', 'twists & turns', 'weird']"
+62336,"['2D animation', 'cult film', 'stylish', 'surreal']"
+62434,"['Seth Rogen', 'Sexual Humor']"
+63062,['emotional']
+63992,"['audience intelligence underestimated', 'boring', 'chick flick', 'overrated', 'Teen movie']"
+64034,"['childish naivity', 'friendship']"
+66097,"['claymation', 'creepy', 'dark', 'dark fairy tale', 'Surreal', 'Tim Burton']"
+66934,"['joss whedon', 'Nathan Fillion', 'Neil Patrick Harris', 'parody']"
+67087,"['Andy Samberg', 'bromance', 'bromantic', 'comedy', 'Jaime Pressly', 'Jason Segel', 'masculinity', 'Paul Rudd']"
+67695,['Seth Rogen']
+68157,"['black comedy', 'Brad Pitt', 'Christoph Waltz', 'Quentin Tarantino', 'satire']"
+68237,"['2001-like', 'Sci-fi', 'solitude']"
+68319,"['comic book', 'bad plot', 'comic book', 'hugh jackman', 'Ryan Reynolds', 'too many characters']"
+68358,"['future', 'lack of development', 'lack of story', 'quick cuts', 'sci-fi', 'Simon Pegg', 'space', 'space travel', 'time travel']"
+68791,"['artificial intelligence', 'bad acting', 'bad plot', 'bad script', 'Christian Bale', 'FIGHTING THE SYSTEM', 'franchise', 'new composer', 'post-apocalyptic', 'robots', 'sci-fi', 'sequel']"
+68848,"['Adrien Brody', 'con artists', 'funny', 'interesting characters', 'Mark Ruffalo', 'Rachel Weisz']"
+68945,['Recap']
+68954,"['adventure', 'Bechdel Test:Fail', 'cartoon', 'children', 'computer animation', 'divorce', 'dogs', 'dreams', 'Pixar', 'bittersweet', 'emotional', 'heartbreaking', 'touching']"
+69122,"['casino', 'comedy', 'funny', 'hotel', 'Las Vegas']"
+69481,['war']
+69526,"['bad plot', 'Michael Bay', 'needed more autobots', 'plot holes', 'ridiculous', 'Shia LaBeouf', 'stop using useless characters for filler']"
+69757,"['artistic', 'Funny', 'humorous', 'inspiring', 'intelligent', 'quirky', 'romance', 'Zooey Deschanel']"
+70286,['intelligent sci-fi']
+71494,['Narrative pisstake']
+71535,"['Bill Murray', 'dark comedy', 'Emma Stone', 'funny', 'Jesse Eisenberg', 'Woody Harrelson']"
+71899,"['bittersweet', 'black comedy', 'character study', 'dark comedy', 'friendship', 'loneliness', 'mental illness', 'philosophical', 'poignant', 'quirky', 'sad', 'sweet', 'touching']"
+72224,['bad humor']
+72998,"['bad science', 'futuristic', 'graphic design', 'James Cameron', 'military', 'poor dialogue', 'sci-fi', 'superficial plot', 'unoriginal', 'white guilt', 'beautiful scenery', 'graphic design', 'music', 'politics', 'romance', 'thought-provoking', 'too long', 'visually stunning']"
+74458,"['insanity', 'Leonardo DiCaprio', 'Martin Scorsese', 'plot twist', 'psychological', 'Psychological Thriller', 'thought-provoking']"
+74791,"['surreal', 'whimsical']"
+79132,"['action', 'alternate reality', 'Leonardo DiCaprio', 'sci-fi', 'thought-provoking', 'visually appealing', 'dreamlike', 'surreal', 'visually appealing', 'big budget', 'clever', 'complicated', 'dead wife', 'great soundtrack', 'heist', 'intellectual', 'mindfuck', 'philosophy', 'psychological', 'psychology', 'suspense', 'thought-provoking', 'cerebral', 'dreamlike', 'philosophy', 'thought-provoking']"
+79702,"['geeky', 'Michael Cera', 'stylized', 'video games']"
+80463,"['good dialogue', 'loneliness', 'witty']"
+80489,"['crime', 'FBI', 'romance', 'too much love interest']"
+80834,"['adventure', 'animation', 'fantasy']"
+80906,"['business', 'corruption', 'economics', 'investor corruption', 'politics', 'truth']"
+81158,['american idolatry']
+81562,['stranded']
+81591,"['alter ego', 'atmospheric', 'creepy', 'horror', 'obsession', 'surreal']"
+82242,['male nudity']
+82459,"['atmospheric', 'Coen Brothers', 'Jeff Bridges', 'Matt Damon', 'predictable']"
+82461,"['action choreography', 'Horrid characterisation', 'Poor plot development', 'sequel', 'soundtrack']"
+83134,['black comedy']
+85565,['Comedy']
+87430,"['audience intelligence underestimated', 'CGI', 'cheesy', 'comic book', 'DC', 'DC Comics', 'Ryan Reynolds', 'space', 'superhero']"
+88094,"['britpop', 'indie record label', 'music']"
+88405,"['comedy', 'funny', 'happy ending', 'HOT actress', 'Justin Timberlake', 'Mila Kunis', 'New York City', 'romance', 'sex']"
+89745,"['Captain America', 'silly', 'superhero', 'superhero team', 'fun', 'great humor', 'visually appealing']"
+89774,"['Boxing story', 'MMA', 'Tom Hardy']"
+90439,"['bank', 'big corporations', 'business', 'corruption', 'financial crisis', 'Kevin Spacey', 'realistic', 'suspense', 'Wall Street']"
+90769,"['celebrity fetishism', 'mediacentralism', 'system holism']"
+91500,['ending']
+91529,"['Anne Hathaway', 'Christian Bale', 'Christopher Nolan', 'comic book', 'great ending', 'Morgan Freeman', 'political commentary', 'superhero']"
+92259,"['emotional', 'sexuality']"
+94959,['quirky']
+95067,['interesting scenario']
+95441,['crude humor']
+95558,"['Beautiful', 'emotional', 'poetic']"
+96079,"['beautiful cinematography', 'beautifully filmed', 'cinematography']"
+96084,"['city politics', 'italy', 'political right versus left']"
+96861,"['Istanbul', 'Liam Neeson', 'predictable', 'Turkey', 'unnecessary sequel']"
+97304,"['cia', 'politics', 'Thrilling']"
+97938,"['cinematography', 'India', 'surreal']"
+98809,"['Action', 'Myth']"
+98961,"['Afghanistan', 'American propaganda', 'assassination', 'military', 'terrorism']"
+99114,"['action', 'Christoph Waltz', 'funny', 'good soundtrack', 'Great performances', 'Humour', 'Leonardo DiCaprio', 'Quentin Tarantino', 'Samuel L. Jackson', 'Soundtrack', 'western', 'Soundtrack']"
+99764,"['moving', 'philosopical', 'surreal', 'weird']"
+99917,"['artistic', 'artsy', 'atmospheric', 'Beautiful', 'dreamlike', 'existentialism']"
+100083,"['embarassing scenes', 'offensive', 'R language', 'sarcasm', 'satire']"
+101142,"['animation', 'funny', 'stone age']"
+102007,['animation']
+102903,"['illusions', 'overcomplicated', 'predictable', 'stupid ending']"
+103042,"['Amy Adams', 'superhero']"
+104218,['Adam Sandler']
+104841,"['cliche characters', 'long shots', 'predictable', 'Simple', 'slow action', 'visually appealing']"
+104863,"['daniel radcliffe', 'zoe kazan']"
+104875,['quirky']
+104879,"['absorbing', 'acting', 'atmospheric', 'Hugh Jackman', 'Jake Gyllenhaal', 'morality', 'mystery', 'thriller']"
+104944,"['emotional', 'feel-good', 'heartwarming', 'mental illness', 'touching']"
+105504,"['hostage', 'ocean', 'suspense', 'suspense', 'tense']"
+106100,"['Jared Leto', 'social commentary', 'uplifting']"
+106489,"['adventure', 'fantasy', 'Tolkien', 'too long']"
+106766,"['atmospheric', 'cinematography', 'depressing', 'funny']"
+106782,"['drugs', 'Leonardo DiCaprio', 'Martin Scorsese', 'Stock Market', 'Wall Street']"
+107348,"['comedy', 'Steve Carell', 'stupid but funny', 'will ferrell']"
+107406,['fatalistic']
+108190,"['anti-intellectual', 'bad writing', 'dystopia', 'new society', 'plot holes', 'predictable', 'scifi', 'unintelligent']"
+108932,"['cheeky', 'clever', 'colorful', 'feel-good', 'fun', 'imaginative', 'quirky']"
+109487,"['black hole', 'sci-fi', 'time-travel', 'Christopher Nolan', 'sci-fi', 'time-travel', 'bad dialogue', 'philosophical issues', 'thought-provoking', 'visually appealing']"
+111364,['Creature Feature']
+111743,"['Charlize Theron', 'Liam Neeson', 'Seth MacFarlane', 'witty']"
+112421,"['adorable', 'black comedy', 'Eccentric', 'introspection', 'mental illness', 'quirky']"
+112515,"['atmospheric', 'dark', 'Metaphorical', 'psychological']"
+112552,"['passion', 'psychological', 'suspense', 'jazz', 'music', 'tense', 'inspirational', 'inspiring', 'intense']"
+112556,"['annoying', 'Stupid ending']"
+112852,"['funny', 'Great Visuals', 'humorous', 'unlikely hero']"
+113705,['bittersweet']
+114180,"['action', 'dystopia', 'plot holes', 'post-apocalyptic', 'survival', 'thriller', 'unexplained', 'weak plot']"
+114627,"['atmospheric', 'bizzare', 'eerie', 'symbolism']"
+115149,"['dark hero', 'gun-fu', 'Keanu Reeves', 'Revenge', 'secret society', 'stylish', 'action', 'killer', 'widows/widowers']"
+115617,"['animation', 'kids', 'robots', 'feel-good', 'fun family movie', 'very funny']"
+116797,"['inspirational', 'intelligent']"
+116897,"['black comedy', 'dark comedy', 'dark humor', 'ironic', 'multiple short stories', 'short stories']"
+117877,"['philosophical', 'trippy']"
+117887,['heartwarming']
+118696,['hope']
+118784,"['documentary', 'music industry', 'remix culture']"
+118985,['painter']
+119141,"['bloody', 'bromance', 'comedy', 'funny', 'James Franco', 'Seth Rogen']"
+119145,['slick']
+120635,"['action', 'murder', 'police']"
+122882,"['beautiful', 'cinematography', 'visually appealing']"
+122912,"['comic book', 'Dr. Strange', 'Great villain', 'Guardians of the Galaxy', 'Marvel', 'MCU', 'Robert Downey Jr.', 'Thanos', 'Thor', 'Visually stunning', 'Dark', 'emotional', 'Sad', 'Visually appealing', 'Visually stunning']"
+122916,"['awesome', 'humor', 'quirky', 'unconventional', 'white guilt']"
+122918,['fun']
+122922,['visually appealing']
+126548,"['funny', 'high school']"
+127172,"['film history', 'poetic', 'representation of children']"
+127298,"['depressing', 'understated']"
+128360,"['characters', 'Dialogue', 'humor', 'Kurt Russell', 'Quentin Tarantino', 'Samuel L. Jackson', 'tension building', 'violent', 'Western']"
+134130,['smart']
+134170,"['funny', 'ridiculous', 'silly']"
+135133,"['dystopia', 'Jennifer Lawrence', 'love story', 'nonsense', 'politics', 'rebellion', 'revolution']"
+135518,"['Ben Kingsley', 'ethics', 'immortality', 'ryan reynolds']"
+135536,"['Bad story', 'Bad writing', 'Batman', 'Ben Affleck', 'comic book', 'dc comics', 'good soundtrack', 'Harley Quinn', ""Harley Quinn's ass"", 'Horrible directing', 'Jared Leto', 'Joker', 'lack of plot', 'Margot Robbie', 'Poor story', 'poorly paced', 'superhero', 'visually appealing', 'Will Smith']"
+136864,"['action', 'batman', 'ben affleck', 'dark', 'dc comics', 'Gal Gadot', 'superhero', 'superman', 'wonderwoman']"
+138036,"['slick', 'stylish']"
+139385,"['leonardo DiCarpio', 'survival', 'tom hardy', 'visually appealing', 'cinematography', 'visually appealing', 'Visually Striking']"
+139644,"['atmospheric', 'tension']"
+140174,"['moving', 'touching']"
+141890,['Moving']
+143367,"['contemplative', 'philosophical', 'thought-provoking', 'tragic']"
+144210,"['dumpster diving', 'Sustainability']"
+148626,"['funny', 'interesting', 'Witty']"
+148881,"['Existential', 'surreal']"
+152077,"['creepy', 'suspense']"
+152711,"['Cambodia', 'crime', 'human rights', 'murder', 'procedural']"
+153070,['nightmare']
+155288,"['suspense', 'thought-provoking']"
+156371,"[""80's""]"
+156605,"['quirky', 'sweet', 'understated']"
+158872,"['Crude humor', 'mindfuck', 'sarcasm', 'satire', 'Vulgar']"
+158966,"['building a family', 'creative', 'freedom', 'good writing', 'individualism', 'Viggo Mortensen']"
+161634,['intense']
+164179,"['beautiful visuals', 'Cerebral', 'cinematography', 'good cinematography', 'smart', 'thought-provoking', 'visually appealing']"
+164909,"['Bittersweet', 'visually appealing']"
+167746,"['funny', 'heartwarming']"
+168248,"['action', 'dark hero', 'gun tactics', 'hitman', 'Keanu Reeves', 'organized crime', 'secret society', 'Heroic Bloodshed']"
+168252,"['dark', 'emotional', 'gritty', 'heartbreaking', 'predictible plot']"
+170945,"['paranoia', 'Suspenseful']"
+174053,"['Dystopia', 'future', 'interesting', 'jon hamm', 'thought provoking']"
+174055,"['brilliant', 'inspiring', 'tense']"
+176371,"['atmospheric', 'beautiful', 'cinematography', 'dark', 'dreamlike', 'existentialism', 'moody', 'philosophical']"
+176419,"['allegorical', 'uncomfortable', 'unsettling']"
+179401,"['Action', 'Comedy', 'Dwayne Johnson', 'funny']"
+180031,"['atmospheric', 'dreamlike']"
+180985,['bad music']
+183611,"['Comedy', 'funny', 'Rachel McAdams']"
+184471,"['adventure', 'Alicia Vikander', 'video game adaptation']"
+187593,"['Josh Brolin', 'Ryan Reynolds', 'sarcasm']"
+187595,"['Emilia Clarke', 'star wars']"
+193565,"['anime', 'comedy', 'gintama', 'remaster']"
