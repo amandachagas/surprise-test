@@ -36,6 +36,7 @@ class GRSD():
             # self.items['year'] = self.items['title'].apply(lambda x: x[-5:-1])
             # self.items['title'] = self.items['title'].apply(lambda x: x[:-7])
             # self.items['genres'] = self.items['genres'].apply(lambda x: x.replace('|',', '))
+            self.items['tags'] = self.items['tags'].apply(lambda x: x.replace('[','').replace(']','').replace('\'',''))
 
 
     def random_group(self, n):
@@ -138,17 +139,20 @@ class GRSD():
         #Replace NaN with an empty string
         self.items['title'] = self.items['title'].fillna('')
         self.items['genres'] = self.items['genres'].fillna('')
+        self.items['tags'] = self.items['tags'].fillna('')
         
         #Construct the required TF-IDF matrix by fitting and transforming the data
         tfidf_matrix_title = tfidf.fit_transform(self.items['title'])
         tfidf_matrix_genres = tfidf.fit_transform(self.items['genres'])
+        tfidf_matrix_tags = tfidf.fit_transform(self.items['tags'])
         
         #Compute the cosine similarity matrix
         self.cosine_sim_movies_title = cosine_similarity(tfidf_matrix_title, tfidf_matrix_title)
         self.cosine_sim_movies_genres = cosine_similarity(tfidf_matrix_genres, tfidf_matrix_genres)
+        self.cosine_sim_movies_tags = cosine_similarity(tfidf_matrix_tags, tfidf_matrix_tags)
 
 
-    def get_similar_items(self, references, title_weight=0.8, k=10):
+    def get_similar_items(self, references, k=10):
         ''' Searches for the top-k most similar items in candidate items to a given reference list. This function is based on MovieLens dataset.
             Returns a list of items.
         '''
@@ -158,11 +162,13 @@ class GRSD():
             movie_idx = int(self.items[self.items['movieId']==item['movieID']].index[0])
             sim_scores_title = list(enumerate(self.cosine_sim_movies_title[movie_idx]))
             sim_scores_genres = list(enumerate(self.cosine_sim_movies_genres[movie_idx]))
+            sim_scores_tags = list(enumerate(self.cosine_sim_movies_tags[movie_idx]))
             
             # Calculate total similarity based on title and genres
             total_sim_score = []
+            genres_weight = tags_weight = (1 - constants.TITLE_WEIGHT) / 2
             for i in range(len(sim_scores_title)):
-                aux = (sim_scores_title[i][1]*title_weight) + (sim_scores_genres[i][1]*(1-title_weight))
+                aux = (sim_scores_title[i][1]*constants.TITLE_WEIGHT) + (sim_scores_genres[i][1]*(genres_weight)) + (sim_scores_tags[i][1]*(tags_weight))
                 total_sim_score.append((i, aux))
                 
             # Sort the movies based on the similarity scores
@@ -218,7 +224,7 @@ class GRSD():
         return recs_dict
 
 
-    def calc_distance_item_in_list(self, item, this_list, title_weight=0.8):
+    def calc_distance_item_in_list(self, item, this_list):
         ''' Calculates the total distance of an item in relation to a given list.
             Returns the total distance.
         '''
@@ -229,7 +235,8 @@ class GRSD():
             
             idx_j = int(self.items[self.items['movieId']==int(movie['movie_id'])].index[0])
 
-            sim_i_j = (self.cosine_sim_movies_title[idx_i][idx_j]*title_weight) + (self.cosine_sim_movies_genres[idx_i][idx_j]*(1-title_weight))
+            genres_weight = tags_weight = (1 - constants.TITLE_WEIGHT) / 2
+            sim_i_j = (self.cosine_sim_movies_title[idx_i][idx_j]*constants.TITLE_WEIGHT) + (self.cosine_sim_movies_genres[idx_i][idx_j]*(genres_weight)) + (self.cosine_sim_movies_tags[idx_i][idx_j]*(tags_weight))
             dist_i_j = 1 - sim_i_j
             total_dist = total_dist + dist_i_j
 
@@ -306,19 +313,22 @@ class GRSD():
     # # # # # # # # # # # # # # # # # # # # # #
     # # # >> Intra List Diversity (ILD) module
     # # # # # # # # # # # # # # # # # # # # # #
-    def calc_distance_i_j(self, idx_i, idx_j, title_weight=0.8):
+    def calc_distance_i_j(self, idx_i, idx_j):
         ''' Calculates the distace between item i and item j.
             Returns the distance.
         '''
-        sim_genre = self.cosine_sim_movies_genres[idx_i][idx_j]
+        sim_genres = self.cosine_sim_movies_genres[idx_i][idx_j]
         sim_title = self.cosine_sim_movies_title[idx_i][idx_j]
-        total_sim = (sim_title*title_weight) + (sim_genre*(1-title_weight))
+        sim_tags = self.cosine_sim_movies_tags[idx_i][idx_j]
+
+        genres_weight = tags_weight = (1 - constants.TITLE_WEIGHT) / 2
+        total_sim = (sim_title*constants.TITLE_WEIGHT) + (sim_genres*(genres_weight)) + (sim_tags*(tags_weight))
         distance_score = 1 - total_sim
 
         return distance_score
 
 
-    def get_distance_matrix(self, final_recs, title_weight=0.8):
+    def get_distance_matrix(self, final_recs):
         ''' Creates a distace matrix from item in a given list.
             Returns the distance matrix.
         '''
@@ -328,17 +338,17 @@ class GRSD():
             movie_idx_i = int(self.items[self.items['movieId']==i['movie_id']].index[0])
             for j in final_recs:
                 movie_idx_j = int(self.items[self.items['movieId']==j['movie_id']].index[0])
-                distance_i_j = self.calc_distance_i_j(movie_idx_i, movie_idx_j, title_weight=0.8)
+                distance_i_j = self.calc_distance_i_j(movie_idx_i, movie_idx_j)
                 aux.append(distance_i_j)
             distance_matrix.append(aux)
             
         return distance_matrix
 
 
-    def get_ILD_score(self, final_recs, title_weight=0.8):
+    def get_ILD_score(self, final_recs):
         ''' Returns the ILD score of a given list.
         '''
-        distance_matrix = self.get_distance_matrix(final_recs, title_weight=0.8)
+        distance_matrix = self.get_distance_matrix(final_recs)
         np_dist_mtx = np.array(distance_matrix)
         upper_right = np.triu_indices(np_dist_mtx.shape[0], k=1)
 

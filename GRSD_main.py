@@ -1,4 +1,4 @@
-from GRSD import GRSD
+from GRSD_test import GRSD
 import constants
 import GRSD_utils as utils
 
@@ -8,7 +8,8 @@ def flow(grsd, technique = 'AWM'):
     grsd.set_k()
 
 
-    my_group = grsd.random_group(5)
+    my_group = [77,596,452,243,420]
+    # my_group = grsd.random_group(5)
     print('\n-->  Group members: {}'.format(my_group))
 
 
@@ -86,9 +87,9 @@ def flow(grsd, technique = 'AWM'):
 
     standard_recs = candidates_list[0:10]
 
-    ild_s = grsd.get_ILD_score(standard_recs, title_weight=0.8)
-    ild_g = grsd.get_ILD_score(final_recs_greedy, title_weight=0.8)
-    ild_r = grsd.get_ILD_score(final_recs_random, title_weight=0.8)
+    ild_s = grsd.get_ILD_score(standard_recs)
+    ild_g = grsd.get_ILD_score(final_recs_greedy)
+    ild_r = grsd.get_ILD_score(final_recs_random)
     p3_s = grsd.precision_at(standard_recs, 3)
     p3_g = grsd.precision_at(final_recs_greedy, 3)
     p3_r = grsd.precision_at(final_recs_random, 3)
