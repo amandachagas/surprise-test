@@ -8,7 +8,17 @@ def flow(grsd, technique = 'AWM'):
     grsd.set_k()
 
 
-    my_group = [77,596,452,243,420]
+    # my_group = [719,720,713,708,722]
+    # my_group = [723,725,714,704,718]
+    # my_group = [706,724,721,726,709]
+    # my_group = [712,710,717]
+    # my_group = [707,715,716]
+    my_group = [702,703,705]
+    # my_group = []
+
+
+
+    # my_group = [77,596,452,243,420]
     # my_group = grsd.random_group(5)
     print('\n-->  Group members: {}'.format(my_group))
 
